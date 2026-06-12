@@ -14,6 +14,10 @@ Usage:
     python mazz.py transits     All active transits mapped to life areas
     python mazz.py month        30-day transit outlook scan
     python mazz.py brief        Strategic Daily Brief (transit synthesis)
+    python mazz.py wealth       Wealth Optimizer - financial astrology briefing
+    python mazz.py wealth calendar  Financial calendar for next 60 days
+    python mazz.py wealth pattern   Your billionaire wealth blueprint
+    python mazz.py wealth invest    Investment timing analysis
     python mazz.py audit        Ground Truth audit status
     python mazz.py audit rate N tag  Rate today's outcome (1-5)
     python mazz.py audit history     Audit log
@@ -360,6 +364,10 @@ def help():
     print("    python mazz.py month         # 30-day transit outlook scan")
     print("  Production:")
     print("    python mazz.py brief         # Strategic Daily Brief (transit synthesis)")
+    print("    python mazz.py wealth        # Wealth Optimizer - financial astrology")
+    print("    python mazz.py wealth calendar  # Financial calendar 60 days")
+    print("    python mazz.py wealth pattern   # Billionaire wealth blueprint")
+    print("    python mazz.py wealth invest    # Investment timing analysis")
     print("    python mazz.py audit         # Ground Truth audit status")
     print("    python mazz.py audit rate N tag  # Rate today outcome (1-5)")
     print("    python mazz.py audit history     # Audit log")
@@ -393,6 +401,16 @@ if __name__ == "__main__":
     elif cmd == "brief":
         import transit_combiner
         transit_combiner.cmd_now()
+    elif cmd == "wealth":
+        import wealth_optimizer
+        if len(sys.argv) < 3:
+            wealth_optimizer.cmd_now()
+        elif sys.argv[2] == "calendar":
+            wealth_optimizer.cmd_calendar()
+        elif sys.argv[2] == "pattern":
+            wealth_optimizer.cmd_pattern()
+        elif sys.argv[2] == "invest":
+            wealth_optimizer.cmd_invest()
     elif cmd == "audit":
         import execution_audit
         execution_audit.record_todays_prediction()
