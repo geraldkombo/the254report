@@ -49,18 +49,37 @@ h1{font-size:1.5em;margin-bottom:4px;color:#fff}
 </div>
 
 <script>
+function parseCSV(text) {
+  // Strip UTF-8 BOM
+  if (text.charCodeAt(0) === 0xFEFF) text = text.slice(1);
+  const rows = [];
+  let inQuote = false, field = '', line = [];
+  for (let i = 0; i < text.length; i++) {
+    const ch = text[i];
+    if (ch === '"') { inQuote = !inQuote; continue; }
+    if (ch === ',' && !inQuote) { line.push(field.trim()); field = ''; continue; }
+    if ((ch === '\n' || ch === '\r') && !inQuote) {
+      if (field.trim() || line.length) { line.push(field.trim()); rows.push(line); }
+      field = ''; line = [];
+      if (ch === '\r' && text[i + 1] === '\n') i++;
+      continue;
+    }
+    field += ch;
+  }
+  if (field.trim() || line.length) { line.push(field.trim()); rows.push(line); }
+  if (!rows.length) return [];
+  const headers = rows[0];
+  return rows.slice(1).map(r => {
+    const o = {};
+    headers.forEach((h, i) => o[h] = (r[i] || '').trim());
+    return o;
+  }).filter(r => r[headers[0]]);
+}
+
 async function loadCSV(path) {
   const r = await fetch(path);
   const text = await r.text();
-  const lines = text.trim().split('\n');
-  if (lines.length < 2) return [];
-  const headers = lines[0].split(',').map(h => h.trim());
-  return lines.slice(1).map(line => {
-    const vals = line.split(',');
-    const row = {};
-    headers.forEach((h, i) => row[h] = vals[i]?.trim() || '');
-    return row;
-  });
+  return parseCSV(text);
 }
 
 async function main() {
@@ -97,22 +116,28 @@ async function main() {
     document.getElementById('peak-list').innerHTML = '<div class="meta">No upcoming PEAK days found</div>';
   }
 
+  function cssLevel(lvl) {
+    const m = { 'PEAK':'peak', 'VERY HIGH':'vhigh', 'HIGH':'high', 'NORMAL':'normal' };
+    return m[lvl] || 'normal';
+  }
+
   // Current score (latest day in DB)
   const latest = all.filter(e => e.Date === today).sort((a,b) => parseFloat(b.Score) - parseFloat(a.Score));
   if (latest.length) {
     const top = latest[0];
-    const level = top.Level || 'NORMAL';
+    const lvl = top.Level || 'NORMAL';
     const el = document.getElementById('score');
-    el.textContent = top.Score;
-    el.className = 'score-big ' + level.toLowerCase().replace(' ','');
-    document.getElementById('meta').textContent = `${top.Transit} H${top.House} | ${level}`;
+    el.textContent = parseFloat(top.Score).toFixed(0);
+    el.className = 'score-big ' + cssLevel(lvl);
+    document.getElementById('meta').textContent = `${top.Transit} H${top.House} | ${lvl}`;
   } else {
-    const allSorted = all.sort((a,b) => parseFloat(b.Score) - parseFloat(a.Score));
+    const allSorted = [...all].sort((a,b) => parseFloat(b.Score) - parseFloat(a.Score));
     if (allSorted.length) {
       const top = allSorted[0];
+      const lvl = top.Level || 'NORMAL';
       const el = document.getElementById('score');
-      el.textContent = top.Score;
-      el.className = 'score-big ' + (top.Level||'normal').toLowerCase().replace(' ','');
+      el.textContent = parseFloat(top.Score).toFixed(0);
+      el.className = 'score-big ' + cssLevel(lvl);
       document.getElementById('meta').textContent = `All-time high: ${top.Transit} H${top.House} on ${top.Date}`;
     }
   }
