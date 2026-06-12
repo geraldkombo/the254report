@@ -42,9 +42,9 @@ h1{font-size:1.5em;margin-bottom:4px;color:#fff}
 <div class="card">
   <h2>Quick Links</h2>
   <div style="display:flex;flex-wrap:wrap;gap:8px;margin-top:8px">
-    <a href="../mazzaroth_exact.ics" style="background:#1a1a24;color:#ccc;padding:8px 16px;border-radius:8px;text-decoration:none;font-size:.9em">Download ICS Calendar</a>
-    <a href="../Mazzaroth_Engine_Data/mazzaroth_master_log.csv" style="background:#1a1a24;color:#ccc;padding:8px 16px;border-radius:8px;text-decoration:none;font-size:.9em">Master Log CSV</a>
-    <a href="../Mazzaroth_Engine_Data/high_leverage_windows.csv" style="background:#1a1a24;color:#ccc;padding:8px 16px;border-radius:8px;text-decoration:none;font-size:.9em">Top Windows CSV</a>
+    <a href="https://raw.githubusercontent.com/geraldkombo/mazzaroth/main/mazzaroth_exact.ics" style="background:#1a1a24;color:#ccc;padding:8px 16px;border-radius:8px;text-decoration:none;font-size:.9em">Download ICS Calendar</a>
+    <a href="https://raw.githubusercontent.com/geraldkombo/mazzaroth/main/Mazzaroth_Engine_Data/mazzaroth_master_log.csv" style="background:#1a1a24;color:#ccc;padding:8px 16px;border-radius:8px;text-decoration:none;font-size:.9em">Master Log CSV</a>
+    <a href="https://raw.githubusercontent.com/geraldkombo/mazzaroth/main/Mazzaroth_Engine_Data/high_leverage_windows.csv" style="background:#1a1a24;color:#ccc;padding:8px 16px;border-radius:8px;text-decoration:none;font-size:.9em">Top Windows CSV</a>
   </div>
 </div>
 
@@ -78,12 +78,19 @@ function parseCSV(text) {
 
 async function loadCSV(path) {
   const r = await fetch(path);
+  if (!r.ok) throw new Error('HTTP ' + r.status);
   const text = await r.text();
   return parseCSV(text);
 }
 
 async function main() {
-  const db = await loadCSV('../Mazzaroth_Engine_Data/mazzaroth_master_log.csv');
+  let db;
+  try {
+    db = await loadCSV('https://raw.githubusercontent.com/geraldkombo/mazzaroth/main/Mazzaroth_Engine_Data/mazzaroth_master_log.csv');
+  } catch(e) {
+    document.getElementById('sub').textContent = 'Failed to load data: ' + e.message;
+    return;
+  }
   if (!db.length) { document.getElementById('sub').textContent = 'No data loaded'; return; }
 
   // Stats
@@ -98,7 +105,7 @@ async function main() {
       <div><div class="score-big" style="font-size:2em;color:#44cc44">${h.length}</div><div class="meta">HIGH</div></div>
       <div><div class="score-big" style="font-size:2em;color:#888">${all.length}</div><div class="meta">Total Events</div></div>
       <div><div class="score-big" style="font-size:2em;color:#888">${Math.round(peak.length/all.length*100)}%</div><div class="meta">PEAK Rate</div></div>
-      <div><div class="score-big" style="font-size:2em;color:#888">${all[all.length-1]?.Date || all[0]?.Date}</div><div class="meta">Last Entry</div></div>
+      <div><div class="score-big" style="font-size:2em;color:#888">${all.sort((a,b) => a.Date.localeCompare(b.Date)).pop()?.Date || '--'}</div><div class="meta">Last Entry</div></div>
     </div>`;
 
   // Upcoming PEAK days (next 10)
