@@ -38,6 +38,18 @@ import mazzaroth_life_areas as la
 
 THRESH_CACHE = os.path.join(os.path.dirname(__file__), "ephe", "thresholds.json")
 COLOR = True
+
+# --- Multi-Subject Dispatch ---
+CURRENT_USER = None
+CURRENT_USER_DIR = None
+
+def get_data_path(user):
+    base = "subjects"
+    os.makedirs(base, exist_ok=True)
+    user_path = os.path.join(base, user)
+    os.makedirs(user_path, exist_ok=True)
+    return user_path
+
 if os.name == "nt":
     os.system("color")
 
@@ -376,9 +388,33 @@ def help():
     print("    python mazz.py ics deploy FOLDER # Deploy ICS to sync folder")
     print("    python mazz.py zepp status       # Zepp import history")
     print("    python mazz.py zepp run FILE     # Import Zepp CSV manually")
+    print("  Optimization:")
+    print("    python mazz.py optimize          # Bayesian weight optimization from audit log")
+    print("  Flags:")
+    print("    python mazz.py --user NAME ...   # Multi-subject routing (default: geraldkombo)")
     print()
 
 if __name__ == "__main__":
+    # Parse --user flag before command dispatch
+    user_arg = "geraldkombo"
+    filtered = []
+    i = 1
+    while i < len(sys.argv):
+        if sys.argv[i] == "--user" and i + 1 < len(sys.argv):
+            user_arg = sys.argv[i + 1]
+            i += 2
+        elif sys.argv[i].startswith("--user="):
+            user_arg = sys.argv[i].split("=", 1)[1]
+            i += 1
+        else:
+            filtered.append(sys.argv[i])
+            i += 1
+    CURRENT_USER = user_arg
+    CURRENT_USER_DIR = get_data_path(user_arg)
+
+    # Rebuild sys.argv without the user flag for downstream dispatch
+    sys.argv = [sys.argv[0]] + filtered
+
     if len(sys.argv) < 2:
         help()
         sys.exit(1)
@@ -443,6 +479,9 @@ if __name__ == "__main__":
             zepp_auto_sync.cmd_status()
         elif sys.argv[2] == "run" and len(sys.argv) >= 4:
             zepp_auto_sync.run_import(sys.argv[3])
+    elif cmd == "optimize":
+        import optimizer
+        optimizer.run_optimization()
     elif cmd in ("help", "--help", "-h"): help()
     else:
         print(f"Unknown command: {cmd}")
