@@ -1,0 +1,29 @@
+name: Mazzaroth Auto-Deploy
+on:
+  schedule:
+    - cron: '0 6 * * 0'  # Every Sunday 06:00 UTC
+  workflow_dispatch:      # Manual trigger from Actions tab
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: pip
+      - name: Install dependencies
+        run: pip install skyfield jplephem
+      - name: Generate ICS calendar
+        run: python ics_auto_deploy.py generate
+      - name: Regenerate high-leverage windows
+        run: python mazz.py thresholds
+      - name: Commit and push updates
+        run: |
+          git config user.name "Mazzaroth Bot"
+          git config user.email "bot@mazzaroth.app"
+          git add mazzaroth_exact.ics ephe/thresholds.json Mazzaroth_Engine_Data/
+          git diff --quiet && git diff --staged --quiet || \
+            git commit -m "Auto-deploy: $(date +%Y-%m-%d) transit calendar update"
+          git push
