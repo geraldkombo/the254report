@@ -1,0 +1,23 @@
+:80
+
+encode zstd gzip
+
+handle_path /api/* {
+  reverse_proxy api:8000
+}
+
+handle_path /reports/* {
+  reverse_proxy api:8000
+}
+
+handle_path /app/* {
+  root * /usr/share/caddy
+  try_files {path} /index.html
+  file_server
+}
+
+handle {
+  root * /var/www/html/public
+  php_fastcgi gateway:9000
+  file_server
+}

@@ -1,0 +1,11 @@
+{
+  "name": "MajiWatch Kenya",
+  "short_name": "MajiWatch",
+  "description": "Water & Sanitation Intelligence for Kenya (47 counties)",
+  "start_url": "/app/",
+  "scope": "/app/",
+  "display": "standalone",
+  "background_color": "#f7f1e6",
+  "theme_color": "#0b1220",
+  "icons": [{ "src": "/app/favicon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }]
+}
