@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+ephe/*.bsp
+Mazzaroth_Engine_Data/watchdog.log
+watchdog.pid
+Zepp_Exports/
