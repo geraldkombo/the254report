@@ -1,6 +1,6 @@
 # From Hola Detention Camp 1959 to Central Police Station 2025: Kenyans Are Still Fighting for Accountability in Custody Deaths
 
-> On March 3, 1959, eleven detainees were beaten to death at Hola detention camp. The colonial government blamed poisoned water. An uncatalogued manuscript by Eliud Mutonyi Wanjie, a detainee in the camp dispensary that morning, records the truth. In June 2025, blogger Albert Ojwang died in a Nairobi police cell. Same pattern: official lies, independent evidence refutes, no senior accountability.
+> On March 3, 1959, eleven detainees were beaten to death at Hola detention camp. The colonial government blamed poisoned water. A manuscript by Eliud Mutonyi Wanjie, a detainee in the camp dispensary that morning, records the truth. In June 2025, blogger Albert Ojwang died in a Nairobi police cell. Same pattern: official lies, independent evidence refutes, no senior accountability.
 
 *By **Gerald Kombo**, The 254 Report | June 2026*
 
@@ -96,11 +96,11 @@ The digitally organised Gen Z protesters who filled the streets in 2025 may not 
 
 **What was the Hola detention camp massacre?**
 
-On March 3, 1959, British colonial warders beat eleven detainees to death at Hola detention camp in what is now Tana River County, Kenya. The government initially blamed poisoned water, but medical evidence proved the men died from beatings. An uncatalogued manuscript by Eliud Mutonyi Wanjie, a detainee present in the camp dispensary that morning, provides the only known firsthand eyewitness account. No senior officials lost their positions.
+On March 3, 1959, British colonial warders beat eleven detainees to death at Hola detention camp in what is now Tana River County, Kenya. The government initially blamed poisoned water, but medical evidence proved the men died from beatings. A manuscript by Eliud Mutonyi Wanjie, a detainee present in the camp dispensary that morning, provides the only known firsthand eyewitness account. No senior officials lost their positions.
 
 **Who was Eliud Mutonyi Wanjie?**
 
-Eliud Mutonyi Wanjie was a Kapenguria trial defence coordinator, a Central Committee and War Council member for Murang'a district, and a detainee present at Hola on March 3, 1959. His manuscript, held but uncatalogued at the Kenya National Archives, is the only known firsthand account that covers the Kapenguria trial logistics, the War Council and Nairobi cell organisation, the oath administration hierarchy, and the Hola massacre eyewitness narrative. It has not been previously cited in journalism or published scholarship.
+Eliud Mutonyi Wanjie was a Kapenguria trial defence coordinator, a Central Committee and War Council member for Murang'a district, and a detainee present at Hola on March 3, 1959. His manuscript, held at the Kenya National Archives, is the only known firsthand account that covers the Kapenguria trial logistics, the War Council and Nairobi cell organisation, the oath administration hierarchy, and the Hola massacre eyewitness narrative. It has not been previously cited in journalism or published scholarship.
 
 **Who was Albert Omondi Ojwang?**
 
@@ -120,9 +120,9 @@ Both cases follow the same pattern: someone dies in state custody, officials off
 
 **URL Slug:** hola-detention-camp-1959-central-police-station-2025-kenya-custody-deaths
 
-**Meta Description:** An uncatalogued manuscript at the Kenya National Archives by Eliud Mutonyi Wanjie, a detainee present at Hola on March 3 1959, describes the beatings that killed 11 men, the Red Cross doctor who broke down crying, and the colonial cover-up that blamed poisoned water. The same pattern appears in a 2025 police cell killing.
+**Meta Description:** A manuscript titled "Maumau: An Account of the Darkest Days of the Emergency" by Eliud Mutonyi Wanjie, a detainee present at Hola on March 3 1959, describes the beatings that killed 11 men, the Red Cross doctor who broke down crying, and the colonial cover-up that blamed poisoned water. The same pattern appears in a 2025 police cell killing.
 
-**Post Excerpt (Homepage Card):** Sixty-six years after eleven detainees were beaten to death at Hola detention camp, blogger Albert Ojwang died in a Nairobi police cell. Same pattern: official lies, independent evidence refutes them, no senior accountability. Based on an uncatalogued manuscript at the Kenya National Archives.
+**Post Excerpt (Homepage Card):** Sixty-six years after eleven detainees were beaten to death at Hola detention camp, blogger Albert Ojwang died in a Nairobi police cell. Same pattern: official lies, independent evidence refutes them, no senior accountability. Based on a manuscript titled "Maumau: An Account of the Darkest Days of the Emergency" held at the Kenya National Archives.
 
 **Category:** Investigative / History / Human Rights
 
@@ -134,12 +134,12 @@ Both cases follow the same pattern: someone dies in state custody, officials off
 
 **OG Title:** Hola 1959 to Central Police Station 2025: Kenya's Custody Death Pattern
 
-**OG Description:** An uncatalogued manuscript at the Kenya National Archives records what happened at Hola on March 3, 1959, when 11 detainees were beaten to death and the government blamed poisoned water. Written by Eliud Mutonyi Wanjie, a detainee in the camp dispensary that morning. The same pattern appears in a 2025 police cell killing.
+**OG Description:** A manuscript titled "Maumau: An Account of the Darkest Days of the Emergency" at the Kenya National Archives records what happened at Hola on March 3, 1959, when 11 detainees were beaten to death and the government blamed poisoned water. Written by Eliud Mutonyi Wanjie, a detainee in the camp dispensary that morning. The same pattern appears in a 2025 police cell killing.
 
 **Twitter Card Type:** summary_large_image
 
 **Twitter Title:** Hola 1959 to Central Police Station 2025
 
-**Twitter Description:** Hola 1959: 11 detainees beaten to death, government blamed poisoned water. An uncatalogued manuscript by Eliud Mutonyi Wanjie records the truth. 2025: blogger killed in police cell, same pattern.
+**Twitter Description:** Hola 1959: 11 detainees beaten to death, government blamed poisoned water. A manuscript by Eliud Mutonyi Wanjie titled "Maumau: An Account of the Darkest Days of the Emergency" records the truth. 2025: blogger killed in police cell, same pattern.
 
 **Hashtags:** #HolaMassacre #EliudMutonyiWanjie #MauMau #KenyaNationalArchives #CustodyDeaths #AlbertOjwang #PoliceAccountability
