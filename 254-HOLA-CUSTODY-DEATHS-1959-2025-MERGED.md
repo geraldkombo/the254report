@@ -1,12 +1,12 @@
 # From Hola Detention Camp 1959 to Central Police Station 2025: Kenyans Are Still Fighting for Accountability in Custody Deaths
 
-> On March 3, 1959, eleven detainees were beaten to death at Hola detention camp. The colonial government blamed poisoned water. A manuscript by Eliud Mutonyi Wanjie, a detainee in the camp dispensary that morning, records the truth. In June 2025, blogger Albert Ojwang died in a Nairobi police cell. Same pattern: official lies, independent evidence refutes, no senior accountability.
+> On March 3, 1959, eleven detainees were beaten to death at Hola detention camp. The colonial government blamed poisoned water. A manuscript by Eliud Mutonyi Wanjie, a detainee in the camp dispensary that morning, records the truth. In June 2025, blogger Albert Ojwang died in a Nairobi police cell. Same pattern: an implausible official explanation, independent evidence that contradicts it, and accountability that stops short of senior ranks.
 
 *By **Gerald Kombo**, The 254 Report | June 2026*
 
 ![](https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/asset/file/982c95a8-df30-4a16-875e-6b6e9b91b18c/_MGN9945__1___1_.JPG?t=1767283387)
 
-*Gen Z protesters march with the Kenyan flag on Kimathi Street in downtown Nairobi, demanding accountability for Albert Ojwang's death and calling for Deputy IG Lagat to face justice, June 2025. The street is named after Field Marshal Dedan Kimathi Waciuri, a commander in the freedom movement in Kenya who refused to surrender and was captured, tried and hanged by colonial authorities in 1957. Eliud Mutonyi Wanjie's manuscript records that such military titles were adopted by forest leaders "to enable them to command the respect of their juniors and maintain the discipline which was a cardinal feature in winning the war," embodying the movement's motto: say and act.*
+*Gen Z protesters march with the Kenyan flag on Kimathi Street in downtown Nairobi, demanding accountability in custody deaths, June 2025. The street is named after Field Marshal Dedan Kimathi Waciuri, a commander in the freedom movement in Kenya who refused to surrender and was captured, tried and hanged by colonial authorities in 1957. Eliud Mutonyi Wanjie's manuscript records that such military titles were adopted by forest leaders "to enable them to command the respect of their juniors and maintain the discipline which was a cardinal feature in winning the war," embodying the movement's motto: say and act.*
 
 Sixty-six years after Mutonyi watched eleven men die under British warders' clubs at Hola detention camp, blogger Albert Omondi Ojwang entered a police cell at Central Police Station alive and left as a corpse. Between these two deaths in custody lies Kenya's independence, a new constitution, and multiple promises of reform. What remains unchanged is how the state responds when someone dies in its care: an implausible official explanation, independent evidence that exposes the lie, and accountability that stops at junior ranks.
 
@@ -64,23 +64,13 @@ By the next morning, Albert was dead. The first police statement claimed he had 
 
 An investigation by the Independent Policing Oversight Authority found that cameras that should have monitored Albert's cell at Central Police Station were switched off or contained unexplained gaps, raising questions about who controlled the CCTV system that night. Prosecutors eventually charged six suspects, three police officers and three civilians or fellow inmates, with murder, all of whom pleaded not guilty as the case moved into a slow-moving pre-trial phase.
 
-Only junior officers and civilians appeared in the dock. The senior commander whose complaint triggered the arrest was not charged, highlighting a familiar imbalance between the treatment of those at the bottom and those at the top of the policing hierarchy.
-
-## A Deputy Steps Aside, Then Returns
-
-Nine days after Albert's death, the senior commander issued a statement on official Kenya Police Service letterhead announcing that, in view of the "unfortunate incident" and ongoing investigations, he would step aside from his office as Deputy Inspector General.
-
-"I have decided to step aside from the office of Deputy Inspector General to allow for comprehensive investigations into the unfortunate incident of the death of Mr. Albert Ojwang."
-
-The letter said his deputy would perform the duties of the position temporarily and expressed "immense condolences" to Albert's family, promising full cooperation with investigators. Months later, after investigators indicated he would not face charges, the Deputy Inspector General quietly returned to his post, even as the murder case against junior officers inched through the courts.
-
-For Albert's relatives and civil society groups, this sequence, complaint, death in custody, apology, temporary stepping aside and reinstatement, raised sharp questions about how far accountability travels in Kenya's security institutions.
+Only junior officers and civilians appeared in the dock. The senior commander whose complaint triggered the arrest was not charged. The case focused on who was present in the cell that night, and the question of command responsibility remained a matter of public debate.
 
 ## Gen Z on the Streets, and the Risk of Forgetting
 
 News of Albert's death turned online outrage into street protest, with mostly young Kenyans organising demonstrations via social media in Nairobi, Mombasa, Homa Bay and other towns. Protesters marched with banners reading "Justice for Albert Ojwang" and calling for the Deputy Inspector General's removal, chanting that no one should enter a police cell alive and leave as a corpse.
 
-In central Nairobi, demonstrators carried the national flag between banks and office towers, some in bandanas and streetwear, others in office suits, recording events on their phones as they moved. At one point, protesters staged a die-in, lying across the tarmac while others raised posters with Albert's portrait under the words "Most Wanted" printed above the image of the senior officer they blamed.
+In central Nairobi, demonstrators carried the national flag between banks and office towers, some in bandanas and streetwear, others in office suits, recording events on their phones as they moved. At one point, protesters staged a die-in, lying across the tarmac while others raised posters with Albert's portrait and messages demanding answers.
 
 At Albert's funeral, the procession turned into another march towards a nearby police station, mourners chanting against deaths in custody and what they described as a culture of impunity in uniform. Yet by December 2025, those Gen Z-led protests had largely slipped from national headlines even though the court case dragged on, echoing how the Hola killings were once buried under official lies and bureaucratic indifference.
 
@@ -104,7 +94,7 @@ Eliud Mutonyi Wanjie was a Kapenguria trial defence coordinator, a Central Commi
 
 **Who was Albert Omondi Ojwang?**
 
-Albert Omondi Ojwang was a 31-year-old teacher and blogger from Homa Bay County, Kenya. He was arrested on June 6, 2025, on a complaint from the Deputy Inspector General of Police and died in a cell at Central Police Station, Nairobi. Government pathologists found injuries consistent with assault, contradicting the initial police claim of suicide. Six people have been charged and denied bail.
+Albert Omondi Ojwang was a 31-year-old teacher and blogger from Homa Bay County, Kenya. He was arrested on June 6, 2025, following a complaint filed by a senior police commander and died in a cell at Central Police Station, Nairobi. Government pathologists found injuries consistent with assault, contradicting the initial police claim of suicide. Six people have been charged and denied bail.
 
 **What links Hola 1959 to Central Police Station 2025?**
 
@@ -122,13 +112,13 @@ Both cases follow the same pattern: someone dies in state custody, officials off
 
 **Meta Description:** A manuscript titled "Maumau: An Account of the Darkest Days of the Emergency" by Eliud Mutonyi Wanjie, a detainee present at Hola on March 3 1959, describes the beatings that killed 11 men, the Red Cross doctor who broke down crying, and the colonial cover-up that blamed poisoned water. The same pattern appears in a 2025 police cell killing.
 
-**Post Excerpt (Homepage Card):** Sixty-six years after eleven detainees were beaten to death at Hola detention camp, blogger Albert Ojwang died in a Nairobi police cell. Same pattern: official lies, independent evidence refutes them, no senior accountability. Based on a manuscript titled "Maumau: An Account of the Darkest Days of the Emergency" held at the Kenya National Archives.
+**Post Excerpt (Homepage Card):** Sixty-six years after eleven detainees were beaten to death at Hola detention camp, blogger Albert Ojwang died in a Nairobi police cell. Same pattern: an implausible official explanation, independent evidence that contradicts it, and accountability that stops short of senior ranks. Based on a manuscript titled "Maumau: An Account of the Darkest Days of the Emergency" held at the Kenya National Archives.
 
 **Category:** Investigative / History / Human Rights
 
 **Tags:** Hola detention camp, Eliud Mutonyi Wanjie, Mau Mau manuscript, Kenya National Archives, Albert Ojwang, custody deaths Kenya, Kapenguria trial, colonial detention, Gen Z protests
 
-**Featured Image Alt-Text:** Gen Z protesters march with the Kenyan flag on Kimathi Street in downtown Nairobi, named after Field Marshal Dedan Kimathi Waciuri who led forest fighters during the Mau Mau war and was hanged by colonial authorities in 1957, demanding justice for Albert Ojwang's death in police custody, June 2025.
+**Featured Image Alt-Text:** Gen Z protesters march with the Kenyan flag on Kimathi Street in downtown Nairobi, named after Field Marshal Dedan Kimathi Waciuri who led forest fighters during the Mau Mau war and was hanged by colonial authorities in 1957, demanding accountability in custody deaths, June 2025.
 
 ## SOCIAL MEDIA METADATA
 
