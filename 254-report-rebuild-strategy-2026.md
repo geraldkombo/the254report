@@ -68,8 +68,49 @@ The structural bet The 254 Report is making represents a fundamental shift in ho
 
 ---
 
-**SEO Title:** The 254 Report rebuilds independent news for AI-driven discovery
+## BEEHIIV METADATA (Copy into Beehiiv Editor Fields)
 
-**URL Slug:** /p/254-report-rebuild-strategy-2026
+**SEO Title:** The 254 Report Rebuilds Independent News for AI-Driven Discovery
+
+**URL Slug:** 254-report-rebuild-strategy-2026
 
 **Meta Description:** How The 254 Report uses AEO and GEO to capture zero-click AI citations across Google, Perplexity, and ChatGPT while deepening Nairobi editorial authority.
+
+**Post Excerpt (Homepage Card):** The 254 Report has completed a strategic rebuild rooted in AEO and GEO content architecture, positioning itself to capture zero-click citations while deepening editorial authority with Nairobi's operator class.
+
+**Category:** Strategy / Media
+
+**Tags:** AEO, GEO, content strategy, zero-click, beehiiv, Kenyan media, independent journalism, AI search
+
+**Featured Image Alt-Text:** The 254 Report homepage on a laptop screen displaying the SRI Synergy Blueprint hero article, with a smartphone next to it showing the subscribe page with the tagline "From the room, not the timeline."
+
+---
+
+## SOCIAL MEDIA METADATA
+
+**OG Title:** The 254 Report Is Rewriting the Rules of Independent News in Kenya
+
+**OG Description:** In an era where 93% of AI search sessions end without a click, one Nairobi publication is betting that AEO/GEO content architecture is the only way forward.
+
+**OG Image Suggestion:** A clean, well-lit photo of a journalist's workspace in Nairobi: laptop open to The 254 Report, notebook, phone, coffee. Natural light. No stock photos. File name: `254-report-workspace-nairobi.jpg`
+
+**Twitter Card Type:** summary_large_image
+
+**Twitter Title:** The 254 Report rebuilds for AI-driven discovery
+
+**Twitter Description:** 93% of AI searches end without a click. Here's how one Kenyan publication is rewriting its content architecture to win the citation game.
+
+**Hashtags:** #AEO #GEO #KenyanMedia #ZeroClick #IndependentJournalism #Nairobi #Beehiiv #ContentStrategy
+
+---
+
+## OPTIMAL SHARING TEXT
+
+**For LinkedIn / X (Long):**
+Kenya's information economy has a structural problem: press releases masquerade as journalism, and operators stitch together intelligence from WhatsApp forwards. The 254 Report just completed a full content architecture rebuild for the AI era. AEO blocks. Question-based subheadings. Entity-first writing. Zero-click citation targeting. Here's what changed and why it matters for anyone who actually needs to understand how power moves in Nairobi. [Link]
+
+**For X / Threads (Short):**
+Most Kenyan reporting vanishes 24 hours after publish. The 254 Report just rebuilt its entire content architecture so ChatGPT, Perplexity, and Google AI keep citing it for months. Here's the playbook. [Link]
+
+**For WhatsApp / Telegram:**
+The 254 Report rebuilt its whole content engine for AI search. If you write, publish, or care about being cited in 2026, this is the template. [Link]
