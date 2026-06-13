@@ -31,21 +31,17 @@ Moringa oleifera, the tree whose leaves, pods, and seeds have been used across E
 
 Iron-deficiency anemia is not an intractable problem requiring pharmaceutical intervention or genetically modified crops. The data from the Vihiga EDXRF study demonstrates that existing farmer-managed vegetable varieties already contain sufficient iron to address the deficiency at the household level. The key finding from the cluster analysis was that calcium and strontium move through plants together with a correlation coefficient of r equals 0.879, meaning breeders can select for both nutrients simultaneously. Equally important, soil pH showed negligible correlation with plant mineral content, confirming that these nutritional traits are under genetic rather than environmental control. This means elite varieties can be bred for consistent performance across Kenya's diverse agroecological zones.
 
-**How Did the KCW Food Roots KE Project Approach This Problem Differently?**
-
-The Food Roots KE (FRK) system developed under the Kilimo Credit Web project demonstrates a parallel but complementary approach. FRK deploys 12 autonomous AI agents that transform raw satellite data, soil intelligence, market prices, and cooperative dynamics into agricultural investment recommendations. The Seed Quality Intelligence agent, for instance, predicts germination rates adjusted for local conditions and ranks varieties by return on investment. The Land Intelligence engine analyzes seven-crop suitability per field using NASA POWER satellite data including soil moisture, precipitation, temperature, and solar radiation. These systems are designed to solve the information asymmetry that keeps smallholders locked out of formal credit markets, but they operate on the same fundamental premise as the EDXRF study: the data to make better agricultural decisions already exists. What is missing is the infrastructure to connect that data to policy.
-
 **What Is the Policy Barrier Keeping These Vegetables Out of Formal Seed Systems?**
 
 The exclusion of ALVs from Kenya's certified seed catalog is not an accident of neglect. It is a structural feature of a seed system designed around commercial varieties that generate recurring revenue through annual seed purchases. Indigenous vegetables are predominantly open-pollinated and farmer-saved, meaning they do not produce royalty streams for seed companies. The certified seed catalog lists varieties that can be standardized, patented, and branded. Crops like jute mallow, amaranth, cowpea leaves, and moringa that farmers have multiplied and selected for generations do not fit this commercial model. The result is that extension officers teach farmers about hybrid cabbage and spinach while the nutritionally superior crops growing in their own hedges receive zero formal support. The EDXRF study provides atomic-level evidence that this policy choice carries a measurable public health cost.
 
 **What Specific Policy Interventions Does the Evidence Support?**
 
-The X-ray data supports three immediate interventions. First, inclusion of top-performing ALV varieties in the national seed certification system, beginning with the accessions that showed exceptional iron and mineral density in the cluster analysis. Second, integration of ALVs into agricultural extension curricula so that extension officers can speak authoritatively about indigenous vegetable production, nutrition, and marketing. Third, integration of ALVs into school feeding programmes, replacing some proportion of imported greens with locally sourced amaranth, cowpea leaves, and jute mallow. The FRK system's seed quality and market intelligence agents could provide the data infrastructure to track which varieties perform best in which agroecologies, creating a feedback loop between farmer cultivation and formal seed system inclusion.
+The X-ray data supports three immediate interventions. First, inclusion of top-performing ALV varieties in the national seed certification system, beginning with the accessions that showed exceptional iron and mineral density in the cluster analysis. Second, integration of ALVs into agricultural extension curricula so that extension officers can speak authoritatively about indigenous vegetable production, nutrition, and marketing. Third, integration of ALVs into school feeding programmes, replacing some proportion of imported greens with locally sourced amaranth, cowpea leaves, and jute mallow. Emerging digital agriculture infrastructure using satellite data, seed quality prediction models, and market intelligence platforms could provide the data backbone to track which varieties perform best across Kenya's diverse agroecologies, creating a feedback loop between farmer cultivation and formal seed system inclusion.
 
 **Are Indigenous Vegetables a Viable Agribusiness Opportunity?**
 
-The market data suggests they are. The EDXRF study found that ALVs already command premium prices in informal markets where consumer knowledge of nutritional value is high. What limits their commercial potential is the absence of certified seed supply, formal market linkages, and extension support. The FRK project's approach of using AI agents to connect satellite data, seed quality, market intelligence, and cooperative governance models directly addresses these gaps. When a farmer can access a seed quality intelligence system that ranks indigenous varieties by predicted germination and ROI, and a market intelligence system that routes their produce to the highest-paying buyer, the economic case for ALV cultivation becomes compelling. The nutritional case, as the X-ray data proves, was never in doubt.
+The market data suggests they are. The EDXRF study found that ALVs already command premium prices in informal markets where consumer knowledge of nutritional value is high. What limits their commercial potential is the absence of certified seed supply, formal market linkages, and extension support. Emerging precision agriculture tools that connect satellite intelligence, seed quality prediction, and market routing could directly address these gaps. When a farmer can access systems that rank indigenous varieties by predicted germination and return on investment, and route their produce to the highest-paying buyer, the economic case for ALV cultivation becomes compelling. The nutritional case, as the X-ray data proves, was never in doubt.
 
 **Frequently Asked Questions**
 
@@ -61,10 +57,10 @@ Indigenous vegetables are predominantly open-pollinated and farmer-saved, meanin
 **Can soil quality affect the iron content of these vegetables?**
 The study found negligible correlation between soil pH and plant mineral content, indicating that the nutritional density of these vegetables is primarily under genetic rather than environmental control. This means elite varieties can perform consistently across diverse growing conditions.
 
-**How can the Food Roots KE system help scale indigenous vegetable production?**
-The FRK system's Seed Quality Intelligence, Land Intelligence, and Market Intelligence agents provide the data infrastructure to track variety performance across agroecologies, predict yields, and connect farmers to buyers, creating the commercial feedback loop needed for formal seed system inclusion.
+**Can digital agriculture tools help scale indigenous vegetable production?**
+Emerging systems that combine satellite data, seed quality prediction, and market intelligence could provide the data infrastructure to track variety performance across agroecologies, predict yields, and connect farmers to buyers, creating the commercial feedback loop needed for formal seed system inclusion.
 
-The evidence from the Vihiga X-ray analysis and the FRK satellite intelligence system converges on a single conclusion: the technology to solve iron deficiency through indigenous vegetable cultivation already exists. The crops already exist in farmers' fields. The knowledge already exists in the communities that have selected and saved these varieties for generations. What remains absent is the policy decision to treat these crops as serious contributors to national nutrition security. The X-ray machine has spoken. The question is whether the seed certification system is listening.
+The evidence from the Vihiga X-ray analysis converges on a single conclusion: the technology to solve iron deficiency through indigenous vegetable cultivation already exists. The crops already exist in farmers' fields. The knowledge already exists in the communities that have selected and saved these varieties for generations. What remains absent is the policy decision to treat these crops as serious contributors to national nutrition security. The X-ray machine has spoken. The question is whether the seed certification system is listening.
 
 *Last updated: June 2026 (The 254 Report)*
 
@@ -82,7 +78,7 @@ The evidence from the Vihiga X-ray analysis and the FRK satellite intelligence s
 
 **Category:** Agriculture / Policy / Health
 
-**Tags:** African leafy vegetables, moringa, iron deficiency, seed systems, X-ray fluorescence, Kenya agriculture, indigenous crops, biofortification, nutrition policy, Food Roots KE
+**Tags:** African leafy vegetables, moringa, iron deficiency, seed systems, X-ray fluorescence, Kenya agriculture, indigenous crops, biofortification, nutrition policy, EDXRF
 
 **Featured Image Alt-Text:** Woman in western Kenya harvesting African leafy vegetables including amaranth and cowpea leaves from a kitchen garden, with jute mallow and pumpkin leaves visible in the background.
 
@@ -102,7 +98,7 @@ The evidence from the Vihiga X-ray analysis and the FRK satellite intelligence s
 
 **Twitter Description:** Kenya's indigenous vegetables deliver 3-4x the iron of imported greens. New X-ray data. Same old policy neglect. Moringa, amaranth, cowpea leaves, jute mallow. The numbers.
 
-**Hashtags:** #AfricanLeafyVegetables #Moringa #IronDeficiency #SeedSystems #KenyaAgriculture #XRayFluorescence #Biofortification #FoodRootsKE #NutritionPolicy
+**Hashtags:** #AfricanLeafyVegetables #Moringa #IronDeficiency #SeedSystems #KenyaAgriculture #XRayFluorescence #Biofortification #NutritionPolicy #IndigenousCrops
 
 ---
 
@@ -113,9 +109,7 @@ New X-ray fluorescence data from the University of Nairobi's Institute of Nuclea
 
 Every single species tested remains absent from Kenya's certified seed catalog.
 
-The KCW Food Roots KE project shows what's possible when satellite intelligence, seed quality AI, and market data infrastructure are applied to indigenous crops. But the policy bottleneck remains.
-
-The crops exist. The knowledge exists. The technology exists. Seed certification reform is the missing link. [Link]
+Seed certification reform is the missing link. [Link]
 
 **For X / Threads (Short):**
 Jute mallow: 4,910 ppm iron. Amaranth: 3,810 ppm. Cowpea: 3,200 ppm. Every species excluded from Kenya's seed catalog.
