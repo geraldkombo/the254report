@@ -1,8 +1,8 @@
 # From Hola Detention Camp 1959 to Central Police Station 2025: Kenyans Are Still Fighting for Accountability in Custody Deaths
 
-> On March 3, 1959, eleven detainees were beaten to death at Hola detention camp. The colonial government blamed poisoned water. A manuscript by Eliud Mutonyi Wanjie, a detainee in the camp dispensary that morning, records the truth. In June 2025, blogger Albert Ojwang died in a Nairobi police cell. Same pattern: an implausible official explanation, independent evidence that contradicts it, and accountability that stops short of senior ranks.
+<!-- Beehiiv background color: Premium Slate (investigative/policy) -->
 
-*By **Gerald Kombo**, The 254 Report | June 2026*
+> On March 3, 1959, eleven detainees were beaten to death at Hola detention camp. The colonial government blamed poisoned water. A manuscript by Eliud Mutonyi Wanjie, a detainee in the camp dispensary that morning, records the truth. In June 2025, blogger Albert Ojwang died in a Nairobi police cell. Same pattern: an implausible official explanation, independent evidence that contradicts it, and accountability that stops short of senior ranks.
 
 ![](https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/asset/file/982c95a8-df30-4a16-875e-6b6e9b91b18c/_MGN9945__1___1_.JPG?t=1767283387)
 
