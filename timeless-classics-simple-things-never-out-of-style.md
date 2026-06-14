@@ -4,7 +4,7 @@ By Lilian Mbugua
 
 On World Gin Day, the simple things that outlast every trend.
 
-<!-- Editor Note: Apply Subtle Brand Tint Callout Block to the AEO Summary paragraph below -->
+<!-- Editor Note: Apply Subtle Brand Tint Callout Block to the paragraph below -->
 
 <div style="background-color: #FEF2F2; padding: 16px 20px; border-radius: 8px;">
 
