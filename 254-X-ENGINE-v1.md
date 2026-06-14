@@ -34,6 +34,7 @@ Here is how the algorithm actually works:
 
 ## HARD RULES (Non-Negotiable)
 
+- **Free X plan: 280 character limit per tweet.** URLs count as 23 characters via t.co shortener. Plan for this.
 - **No external links in the main tweet.** Links get 30-40% less reach. Place in the first reply.
 - **No hashtags in the main tweet.** Hashtags on X reduce reach in 2026. Zero hashtags in main tweet. Max 1-2 in the reply.
 - **No em-dashes or en-dashes.** Use commas, colons, or periods.
@@ -55,7 +56,7 @@ The first 30 minutes after posting determine approximately 70% of a tweet's even
 
 ## SINGLE TWEET STRUCTURE
 
-### Main Tweet (280 Characters Max)
+### Main Tweet (280 Characters Max — Free Plan)
 - Hook in first 80 characters. A strong statement, data point, or contradiction.
 - Named entity + date + specific number preferred (increases Grok citation probability).
 - No link. No hashtag. No @mention unless critical.
