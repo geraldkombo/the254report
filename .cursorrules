@@ -91,14 +91,12 @@ Based on GEO Optimizer audit (v4.14): homepage 51/100, article pages 68-69/100. 
 
 ### AEO Color Index (Client Brand Priority)
 
-**Client brand color takes priority.** When a `CLIENT BRAND` is specified in the execution interface, extract the dominant brand color from the client's website, logo, or brand guidelines. If the client is a person (e.g. Lilian Mbugua), check their personal website, portfolio, or social media for brand aesthetic. Use the closest brand color as the AEO block background. Only fall back to the generic index below when writing for The 254 Report itself or when no client brand is specified.
+**Client brand color takes priority when clearly known.** If the client has obvious, established brand colors you can identify from their website or logo (e.g. oraimo's teal, FIDA's purple, Safaricom's green), use the client's actual hex code. Otherwise, use our strength — the index below — and pick the color that matches the article's primary tone. Do not hunt for weak or unclear brand signals.
 
-**How to detect client brand colors:**
-1. If the client is a company: fetch their website, logo, brand guidelines.
-2. If the client is a person (writer/journalist): check their personal website, portfolio, LinkedIn, Instagram, or YouTube for consistent brand colors and aesthetic.
-3. Extract the primary brand color from the site's CSS, logo, or style guide.
-4. Map the closest named color from the index below, or use the client's specific hex code if it differs significantly from the index.
-5. If no clear brand colors are found for a person client, default to Subtle Brand Tint (#F5F0E8) for writer/culture features or Trust Blue (#1B2A4A) for analysis pieces.
+**How to determine the right color:**
+1. If the client has obvious, strong brand colors you can name, use them.
+2. If the client is a person (writer/journalist) with a clear personal brand aesthetic, use it.
+3. If brand colors are unclear, weak, or you are unsure, do not guess — use the index below. Our index is the strength.
 
 | Article Type / Client Sector | Named Color | Hex Code |
 |---|---|---|
@@ -111,7 +109,7 @@ Based on GEO Optimizer audit (v4.14): homepage 51/100, article pages 68-69/100. 
 | Consumer Tech / Electronics (e.g. oraimo) | Teal | `#0D7377` |
 | Economy / Trade / Markets | Olive Gold | `#7B6000` |
 
-Pick the color that matches the article's primary tone. If the client has established brand colors (e.g. oraimo's brand teal, FIDA's brand purple), use the client's actual hex code instead of the generic one. Insert as: `<!-- Editor Note: Set Callout Block color to [Color Name or Hex] -->`
+Pick the color that matches the article's primary tone. Insert as: `<!-- Editor Note: Set Callout Block color to [Named Color or Hex] -->`
 4. **The Human Truth / Insight:** Start body here. First 200 words deliver complete core answer. Ground in a real socio-cultural, political, or economic shift. No background fluff.
 5. **Bold Question Subheadings:** All internal headings as bold text lines (e.g., **What Is the Next Phase for Nairobi Tech?**), not ## or ###. Mirror natural voice-search syntax.
 6. **RAG Readiness:** First sentence below each bold subheading directly answers the question. Tables, bullets, and quotes contextualized in sentence preceding them.
