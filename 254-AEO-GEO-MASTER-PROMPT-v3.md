@@ -86,7 +86,7 @@ Based on GEO Optimizer audit (v4.14): homepage 51/100, article pages 68-69/100. 
 
 1. **Title (H1):** Primary keyword in first 60 characters. Under 70 total.
 2. **Subtitle:** One line expanding the stakes.
-3. **AEO Summary Block:** Insert an HTML comment suggesting the native color block from the AEO Color Index below. Follow immediately with a standard text paragraph (NO blockquote `>` symbol). Start the paragraph with `**AEO Summary:**` in bold, naming the primary entities and answering core intent in 40 to 60 words. This avoids beehiiv's default grey blockquote styling inside colored callout blocks.
+3. **AEO Summary Block:** Insert an HTML comment suggesting the native color block from the AEO Color Index below. Follow with the AEO Summary paragraph wrapped in an HTML `<div>` with inline `background-color` matching the chosen AEO color (use the hex code from the index). Start the paragraph with `**AEO Summary:**` in bold. This makes the article look beehiiv-like when viewed on GitHub. When pasting into beehiiv, skip the HTML div wrapper and apply the native Callout block to the paragraph text instead.
 4. **The Human Truth / Insight:** Start body here. First 200 words deliver complete core answer. Ground in a real socio-cultural, political, or economic shift. No background fluff. No label.
 5. **Bold Question Subheadings:** All internal headings as bold text lines (e.g., **What Is the Next Phase for Nairobi Tech?**), not ## or ###. Mirror natural voice-search syntax.
 6. **RAG Readiness:** First sentence below each bold subheading directly answers the question. Tables, bullets, and quotes contextualized in sentence preceding them.
@@ -110,7 +110,13 @@ All hex codes below are soft tones compatible with beehiiv Free plan. Do not use
 | Consumer Tech / Electronics (e.g. oraimo) | Teal | `#E6FFFA` |
 | Economy / Trade / Markets | Olive Gold | `#FEFCE8` |
 
-Insert as: `<!-- Editor Note: Apply [Named Color] Callout Block to the AEO Summary paragraph below -->`
+Insert as: `<div style="background-color: #HEXCODE; padding: 16px 20px; border-radius: 8px;">
+
+**AEO Summary:** [40-60 word paragraph answering core intent]
+
+</div>`
+
+When pasting into beehiiv, use only the paragraph text inside the div and apply the native Callout block via the visual editor.
 
 ## SECTION 6: OUTPUT FORMAT
 
