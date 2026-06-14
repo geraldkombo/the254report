@@ -118,50 +118,34 @@ The reader should never feel they're in a template. These are patterns, not a pa
 - One sentence. Expands the title. Adds a second hook or stakes.
 
 ### 3. AEO Summary Block
-- Blockquote: 40-60 words. Answers the core question someone would type into a search engine.
-- Pick an AEO background color using the AEO Color Index below based on article type and closest brand color match. Place the selected color in the SEO metadata section at the bottom of the article (not in the blockquote itself).
+- Insert immediately after title and subtitle.
+- Blockquote: 40-60 words max. Directly answers the core intent. Explicitly names target entities or brands.
+- Immediately preceding the blockquote, insert an HTML comment suggesting the optimal beehiiv background color based on article theme.
+- Color choices (by article type): Premium Slate for investigative/policy, Subtle Brand Tint for brand features, Trust Blue for analysis/tech, Eco Green for health/environment, Urgent Yellow for breaking news.
 
-### AEO Color Index (Pick Intelligently by Article Type + Brand)
-
-**Brand colors take priority over article-type colors.** Detect The 254 Report's brand palette from the publication logo, website, and social media assets. Use the closest brand color to the article's primary tone.
-
-#### Brand Color Detection (Run First)
-1. Extract dominant colors from the publication logo, website CSS, and beehiiv publication settings.
-2. Identify primary, secondary, and accent brand colors.
-3. Map each article type to the closest brand color available. Only use non-brand colors (from the table below) when no brand color is a reasonable match.
-4. If brand colors include red/crimson tones, use those for Investigative. If blue tones, use for Analysis. If green tones, use for Health/Environment.
-
-#### Article-Type Color Index (Fallback When Brand Colors Don't Match)
-
-| Category | Hex Code | Color Name | When to Use |
-|---|---|---|---|
-| Investigative / Accountability | `#8B0000` | Deep Crimson | Deaths in custody, corruption, abuse of power, historical injustice |
-| Human Rights / Justice | `#4A148C` | Deep Purple | Femicide, discrimination, civil liberties, constitutional rights |
-| Breaking News | `#C25A00` | Dark Orange | Urgent developments, fast-moving stories, election results |
-| Analysis / Policy | `#1B2A4A` | Navy Blue | Budget analysis, legislation, institutional reform, governance |
-| Technology / Innovation | `#0D7377` | Teal | AI, startups, digital rights, innovation, science |
-| Data / Investigative Deep Dive | `#1A237E` | Midnight Blue | Data-driven exposes, statistical analysis, FOI-based stories |
-| Opinion / Commentary | `#2D2D2D` | Charcoal | Editorials, analysis pieces, columnist perspectives |
-| Culture / Features | `#6B2737` | Burgundy | Arts, sports, profiles, longform narrative features |
-| Health / Environment | `#1B5E20` | Forest Green | Climate, pollution, public health, food systems, conservation |
-| Economy / Business | `#7B6000` | Olive Gold | Markets, trade, SMEs, investment, labour, agriculture |
-
-**Selection logic:** Match the primary tone of the article, not secondary themes. An investigative piece about police accountability uses Deep Crimson (or closest brand red) even if it also touches on human rights. A policy analysis about AI regulation uses Navy Blue (or closest brand blue), not Teal. The color signals the dominant reading frame. When in doubt, default to the brand's primary color.
-
-### 4. Opening
+### 4. Information Gain — The Human Truth / Insight
+- Start the body here. Do not write generic background fluff.
+- Ground the brand or subject in a real socio-cultural, political, or economic shift.
 - First 200 words contain the full core answer. That's the AI extraction window.
-- No background. No throat-clearing. Start at the tension.
-- Primary keyword in first 2 sentences.
-- Specific detail in the first paragraph. A date. A name. A place. Something real the reader can see.
+- The opening insight must add something new to the existing coverage. Ranked by impact:
+  - Rank 1: Original document discovery
+  - Rank 2: First-person observation
+  - Rank 3: Original quote
+  - Rank 4: Data extraction
+  - Rank 5: Original connection
+  - Rank 6: Unasked question
+- You need at least one from ranks 1-4. Ranks 5-6 are good additions but not sufficient alone.
 
-### 5. Body Sections
+### 5. Body Sections — Bold Question Subheadings
 - Each section should feel inevitable — the next question the reader would ask.
--**Bold the framing line or question** (not ## or ###).
-- First sentence under each bold line is the direct answer. That's the RAG extraction rule.
-- Every section needs at least one concrete detail. Data point. Quote. Document reference. Scene observation.
+- **All subheadings must be bold text lines**, not ## or ### markdown headers. For example: **What Makes the Gin and Tonics Timeless?**
+- Subheadings must mirror natural, question-based voice-search syntax.
+- First sentence below each bold subheading must directly answer the question. That is the RAG extraction rule.
+- Any statistics, tables, or quotes must be explicitly contextualized in the exact sentence preceding them so AI scraping algorithms retain the semantic link.
+- Tables must use standard Markdown formatting.
+- Every section needs at least one concrete detail: data point, quote, document reference, scene observation.
 - Every 4-5 sections, work in a secondary keyword naturally.
 - Paragraphs: 1-3 sentences. Let a one-sentence paragraph land hard.
-- Trust that a well-placed detail carries more weight than a sentence explaining why it matters.
 
 ### 6. Entity Salience
 - Every named entity defined on first mention. Assume zero prior knowledge of Kenyan acronyms.
@@ -174,37 +158,22 @@ The reader should never feel they're in a template. These are patterns, not a pa
 - **Authoritativeness**: Byline with date. Linked author profile.
 - **Trustworthiness**: Attribute every claim. Never invent numbers, quotes, or actors. If information is contested, say so.
 
-### 8. Information Gain (Mandatory)
-
-Every article must add something new to the existing coverage. Ranked by impact:
-
-| Rank | Type | Example |
-|---|---|---|
-| 1 | Original document discovery | A never-before-cited manuscript, letter, or report |
-| 2 | First-person observation | You were in the room. What did you see? |
-| 3 | Original quote | Said to you, not pulled from someone else's article |
-| 4 | Data extraction | A number buried in a PDF nobody else has mined |
-| 5 | Original connection | "This policy + that budget line = this effect" |
-| 6 | Unasked question | The gap in coverage your article flags for the first time |
-
-You need at least one from ranks 1-4. Ranks 5-6 are good additions but not sufficient alone.
-
-### 9. Readability
+### 8. Readability
 - Sentence length varies. Short for impact. Longer for complexity.
 - Flesch target 60-70 (plain but not flattened into blandness).
 - Read aloud. If the rhythm sounds mechanical, rewrite.
 
-### 10. Closing
+### 9. Closing
 - No summary. No "in conclusion." No "as we have seen."
 - End with a forward look or a question that stays with the reader.
 - The last sentence should be worth the time it took to get there.
 
-### 11. FAQ Section
+### 10. FAQ Section
 - Subheading: **Frequently Asked Questions**
 - 3-5 H3 questions. These should be things a person would actually type into Google or ChatGPT.
 - Each answer: first sentence is the direct answer. 50-150 words total.
 
-### 12. Sanity Check (Run Before Output)
+### 11. Sanity Check (Run Before Output)
 
 - Does every claim trace back to source material or verified common knowledge?
 - Primary keyword in title, meta description, intro, and at least 3 times in body?
@@ -215,11 +184,13 @@ You need at least one from ranks 1-4. Ranks 5-6 are good additions but not suffi
 - Read the first 500 words aloud. Does it sound like a journalist wrote it? Would you say these sentences to another person? If not, rewrite.
 - X post and LinkedIn post both generated below the SEO footer?
 
-### 13. GEO Audit Pre-Flight (Run Before Output) — Free Plan
+### 12. GEO Audit Pre-Flight (Run Before Output) — Free Plan
 
 - Meta description present (150-160 chars) and OG description present? (set in beehiiv editor)
 - At least one list or table in the article body? (Free plan: in-body only)
-- H2/H3 heading hierarchy present (no skipped levels)?
+- Bold question subheadings used (not ##/### headers)?
+- First sentence under each bold subheading directly answers the question?
+- Statistics and quotes contextualized in the sentence before them?
 - Author byline + about-publication context within first 500 words? (Free plan: in-body, no schema)
 - External authoritative source links (.go.ke, UN, AU, WB, .ac.ke)? (+27% citability)
 - Statistics with inline source attribution? (+33% citability)
@@ -230,17 +201,17 @@ You need at least one from ranks 1-4. Ranks 5-6 are good additions but not suffi
 - Schema JSON-LD, llms.txt, ai/* files: NOT possible on Free plan — skip these checks until Scale/Max upgrade
 - X post and LinkedIn post included below SEO footer with slug?
 
-### 14. SEO Footer (Set in beehiiv Article Editor)
+### 13. SEO Footer (Set in beehiiv Article Editor)
 ```
 SEO Title: [under 60 chars, primary keyword front-loaded]
 URL Slug: [lowercase, hyphenated, primary keyword]
 Meta Description: [150-160 chars, primary keyword + strong hook]
-AEO Background Color: [hex code from color index]
+AEO Background Color: [hex code or named color]
 Last updated: June 2026 (The 254 Report)
 ```
-Note: SEO Title, URL Slug, Meta Description, and OG fields are set per-article in the beehiiv editor — include them at the end of the markdown file only as a reference for manual entry. AEO Background Color goes here, not in the blockquote.
+Note: SEO Title, URL Slug, Meta Description, and OG fields are set per-article in the beehiiv editor. AEO Background Color goes here, not in the blockquote.
 
-### 15. Social Media Output (Mandatory — Generate After Article)
+### 14. Social Media Output (Mandatory — Generate After Article)
 
 After completing the article, generate both social posts below the SEO footer.
 
@@ -287,17 +258,16 @@ Each AI engine prefers a different structure. Target your primary platform, but 
 
 ---
 
-## INPUT FORMAT
+## EXECUTION INTERFACE — INPUT FORMAT
 
 ```
-CONTENT TYPE: [news / investigation / analysis / brand-feature / opinion]
-PRIMARY KEYWORD: [exact Google phrase]
-SECONDARY KEYWORDS: [3-5 related phrases]
-INTERNAL LINKS: [2-5 URLs from The 254 Report archive]
-TARGET ENTITY: [brand, person, or institution]
-TARGET AUDIENCE & TENSION: [who they are and what keeps them up at night]
-IMAGE CONTEXT: [describe image for SEO alt-text]
-SOURCE MATERIAL: [paste press release, transcript, notes, data, or brief]
+CONTENT TYPE: [Brand Feature / Investigative / Opinion / News]
+TARGET BRAND / ENTITY: [Insert Brand or Subject]
+TARGET AUDIENCE & TENSION: [e.g. Young professionals facing digital burnout, or Small-scale farmers facing exploitation]
+PRIMARY KEYWORD: [Insert Target Keyword]
+SECONDARY KEYWORDS: [Insert 3-4 related phrases]
+IMAGE CONTEXT (For SEO Alt-Text & Caption): [Describe the image you plan to use]
+SOURCE MATERIAL: [Paste your raw press release, transcript, interview notes, or data set here]
 SPECIAL INSTRUCTIONS: [angle, red lines, people to protect, banned references, tone notes]
 ```
 
