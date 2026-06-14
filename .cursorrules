@@ -223,7 +223,60 @@ When pasting into beehiiv, use only the paragraph text inside the div and apply 
 
 ## SECTION 7: OUTPUT FORMAT
 
-Provide final article in clean, native Markdown ready for beehiiv Free editor. Include at the bottom:
+Provide final article in clean, native Markdown ready for beehiiv Free editor. At the bottom, include the X and LinkedIn posts following the algorithmic specifications below.
+
+### X/Twitter Algorithm Rules (Free Plan, 280 chars)
+
+X's ranking system (open-source, Grok-powered) uses three stages: Candidate Sourcing (1,500 candidates from network + interest graph), Heavy Ranker Scoring (Grok predicts 19 action probabilities per candidate), Filtering & Blending (diversity caps, 30-day negative feedback tracking).
+
+**The weight ladder (from open-source code):**
+
+| Action | Weight | Meaning |
+|---|---|---|
+| Reply where author re-engages | 150x | Single most important signal |
+| Reply | 13.5-27x | Dominates distribution |
+| Retweet (repost) | 1-20x | Signals endorsement |
+| Profile click + engagement | 12x | Deep interest in author |
+| Bookmark | 10x | "I want to come back to this" |
+| Dwell time (read duration) | Heaviest | Outweighs all click signals |
+| Like | 1x | Nearly worthless for distribution |
+| Report | -100x | One report outweighs 100 likes |
+| Block | -50x | Strong negative signal |
+| Mute | -30x | Weakens future reach |
+| Not interested | -20x | Direct feedback |
+
+**Engagement velocity:** First 30 minutes determine ~70% of total reach. A tweet with 10%+ engagement rate in first hour gets fed to larger pools. Below 0.5% gets throttled permanently. Reach loses ~50% every 6 hours.
+
+**Posting time is strategic.** Post when audience is active. Fast engagement compounds. A tweet that sits 2 hours is buried.
+
+**Output format for X:**
+
+```
+X MAIN TWEET:
+[280 chars max. No link. No hashtag. No @mention unless critical. Hook in first 80 chars. Named entity + date + specific number preferred. Ends with open loop that invites a reply (replies carry 13.5-27x weight). Remember: t.co shortens URLs to 23 chars — do not include a link in the main tweet. Links in main tweet reduce reach 30-40%.]
+
+X FIRST REPLY (self-reply, pin for visibility):
+[1-2 lines context + https://www.the254report.co.ke/p/{URL-SLUG} + 1-2 hashtags max. Link goes here, not in main tweet.]
+```
+
+### LinkedIn Algorithm Rules (360Brew, 2026)
+
+LinkedIn's Depth Score = (Dwell Time x 2) + (Comment Quality x 15) + (Saves x 5) - (Bounce Rate). Comments carry 15x the weight of likes. Dwell time is #1 ranking signal.
+
+**Four distribution phases:**
+1. Quality Scan (0-60 min): AI checks for spam, AI detection, originality. Fail = dead at 50-200 impressions.
+2. Initial Test (1-4 hrs): Goes to 5-15% of network. Dwell time + comment quality + saves determine fate.
+3. Extended Distribution (4-48 hrs): Pushes to second-degree connections and topic-based feeds.
+4. Long Tail (48 hrs - 2 wks): Search results, topic feeds, profile visits, Discover section.
+
+**Output format for LinkedIn:**
+
+```
+LINKEDIN POST:
+[300-700 words. Hook in first 150 chars (this is the "See more" cutoff — must contain keyword or core claim in plain text). Line breaks every 1-3 sentences. Short lines. Unicode bold for section headers only. At least one specific data point, quote, or observation from the source material. Article link: https://www.the254report.co.ke/p/{URL-SLUG} on its own line before the question. Specific open-ended question at end — one that requires personal experience to answer. 3-5 hashtags at very end: 1-2 broad (#Kenya, #Business), 2-3 niche. No em-dashes. No hashtags or @tags in body. No engagement bait.]
+```
+
+### Complete Footer Template
 
 ```
 SEO Title: [under 60 chars]
@@ -232,13 +285,13 @@ Meta Description: [150-160 chars]
 AEO Background Color: [Named Color + Hex]
 
 X MAIN TWEET:
-[280 chars max. No link. No hashtag. Hook in first 80. Ends with open loop. Remember: t.co shortens URLs to 23 chars — do not include a link in the main tweet.]
+[280 chars. No link. No hashtag. Hook in first 80. Named entity + date. Ends with open loop.]
 
 X FIRST REPLY:
-[1-2 lines context + https://www.the254report.co.ke/p/{URL-SLUG} + 1-2 hashtags max. Link goes here, not in main tweet.]
+[Context line + https://www.the254report.co.ke/p/{URL-SLUG} + 1-2 hashtags]
 
 LINKEDIN POST:
-[300-700 words. Hook in first 150 chars. Line breaks every 1-3 sentences. Link: https://www.the254report.co.ke/p/{URL-SLUG} in body before question. 3-5 hashtags at end. Specific open-ended question at end.]
+[Hook in first 150 chars. Line breaks. Article link before question. 3-5 hashtags at end. Specific open-ended question.]
 ```
 
 ## SECTION 8: READ ALOUD TEST
@@ -255,13 +308,17 @@ Run this checklist before final output. If any check fails, rewrite before proce
 
 3. **Gap Analysis:** Name at least one thing this article does not cover that a reader or AI would reasonably expect. Flag it explicitly: "This piece does not address [X] because [reason]." An honest gap is better than a fabricated claim.
 
-4. **Freshness Check:** Are all time-sensitive claims dated? Are any sources older than 60 days? If so, note the gap.
+4. **Freshness Check:** Are all time-sensitive claims dated? Are any sources older than 60 days? If so, note the gap. X engagement velocity requires posting when audience is active — first 30 minutes determine ~70% of reach. LinkedIn's Quality Scan phase runs 0-60 minutes. Timing is strategic.
 
 5. **Entity Check:** Is the author's named expertise established in the first 500 words? Are all acronyms defined on first mention?
 
 6. **Structural Check:** Does every bold subheading mirror a real voice-search query? Does the first sentence beneath it answer directly?
 
 7. **Fabrication Check:** Has every quote, statistic, and claim been verified against the source material? If any text was generated without source evidence, remove it.
+
+8. **X Post Check:** Does the main tweet have no link, no hashtag, no @mention? Is the hook in the first 80 chars? Does it end with an open loop that invites a reply (13.5-27x weight)? Is it under 280 chars including t.co math? Would it earn a reply, not just a like? Note: likes are 1x weight, replies are 13.5-27x.
+
+9. **LinkedIn Post Check:** Is the first 150 chars a hook that would stop someone scrolling? Is the article link in the body before the question? Is the question specific (not "What do you think?")? Are there 3-5 hashtags only at the end? Does it use line breaks every 1-3 sentences? Is dwell time the primary design goal (Depth Score = Dwell x 2 + Comments x 15 + Saves x 5)?
 
 ## EXECUTION INTERFACE
 
