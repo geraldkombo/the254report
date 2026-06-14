@@ -32,7 +32,16 @@ Identify every entity (people, organizations, concepts) relevant to the topic. M
 **Step 4: Statistical Anchoring**
 Find or generate precise data points. Generic statements score zero on Information Gain. You need numbers: percentages, dates, financial figures, counts. Every statistic must include source attribution. AI engines reward sourced statistics with up to 40% higher citation rates.
 
-**Step 5: Freshness Verification**
+**Step 5: Gap Analysis (What Is Missing)**
+After collecting available information, explicitly identify what is missing. No research is complete. Flag every gap clearly:
+- "I cannot find the exact 2025 figure for [X]. The latest available data is from 2023."
+- "No exclusive quotes from [entity] are available in my training data. Primary source interviews would strengthen this section."
+- "The source material does not specify [detail]. This should be verified before publication."
+- "My knowledge cutoff is [date]. Any claims about events after this date should be verified against live sources."
+
+Do not fabricate data to fill gaps. Flag them. A research agent that admits gaps is more trustworthy than one that fabricates completion. AI citation engines penalize unsourced claims. Gaps flagged honestly preserve credibility and tell the user exactly what additional research is needed.
+
+**Step 6: Freshness Verification**
 Check the date of every claim. Content older than 60 days faces exponential decay in citation probability. If your knowledge cutoff is outdated, state the cutoff explicitly and note where updated data is needed.
 
 ---
