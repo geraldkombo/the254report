@@ -2,7 +2,7 @@
 
 ![](https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/asset/file/982c95a8-df30-4a16-875e-6b6e9b91b18c/_MGN9945__1___1_.JPG?t=1767283387)
 
-*Gen Z protesters march with the Kenyan flag on Kimathi Street in downtown Nairobi, demanding accountability in custody deaths, June 2025. The street is named after Field Marshal Dedan Kimathi Waciuri, a commander in the freedom movement in Kenya who refused to surrender and was captured, tried and hanged by colonial authorities in 1957. Eliud Mutonyi Wanjie's manuscript records that such military titles were adopted by forest leaders "to enable them to command the respect of their juniors and maintain the discipline which was a cardinal feature in winning the war," embodying the movement's motto: say and act. Photo by Henry Naminde / The 254 Report.*
+*Gen Z protesters march with the Kenyan flag on Kimathi Street in downtown Nairobi, demanding accountability in custody deaths, June 2025. The street is named after Field Marshal Dedan Kimathi Waciuri, a commander in the freedom movement in Kenya who refused to surrender and was captured, tried and hanged by colonial authorities in 1957. Eliud Mutonyi Wanjie's manuscript records that such military titles were adopted by forest leaders "to enable them to command the respect of their juniors and maintain the discipline which was a cardinal feature in winning the war," embodying the movement's motto: say and act. (Photo by Henry Naminde)*
 
 <!-- Beehiiv background color: Premium Slate (investigative/policy) -->
 
@@ -14,7 +14,7 @@ Kenya became independent in 1963 after decades of British rule, during which the
 
 ![](https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/asset/file/fd067180-498e-46f7-b4ea-b22a656e1c9c/1000568155.jpg?t=1767282211)
 
-*The cover of Eliud Mutonyi Wanjie's unpublished manuscript "Maumau: An Account of the Darkest Days of the Emergency," held at the Kenya National Archives in Nairobi. Written by a former detainee in the colonial detention system, the manuscript challenges official colonial narratives by documenting the freedom movement's internal organization and the 1959 Hola detention camp massacre that killed eleven men. The worn red binding and typed label mark a handwritten account that colonial authorities never wanted preserved, catalogued decades after independence as evidence of what the state tried to erase from history. Photo by Henry Naminde / The 254 Report.*
+*The cover of Eliud Mutonyi Wanjie's unpublished manuscript "Maumau: An Account of the Darkest Days of the Emergency," held at the Kenya National Archives in Nairobi. Written by a former detainee in the colonial detention system, the manuscript challenges official colonial narratives by documenting the freedom movement's internal organization and the 1959 Hola detention camp massacre that killed eleven men. The worn red binding and typed label mark a handwritten account that colonial authorities never wanted preserved, catalogued decades after independence as evidence of what the state tried to erase from history. (Photo by Henry Naminde)*
 
 ## The Freedom Movement Names Itself
 
@@ -56,7 +56,7 @@ Even after the truth emerged, senior officials kept their positions. Hola was la
 
 ![](https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/asset/file/b7ffdd16-80b4-4a7a-9073-f2c430cec794/A17I0318__1___1_.JPG?t=1767283571)
 
-*Albert Omondi Ojwang, a 31-year-old teacher and blogger from Homa Bay County, whose death in a Nairobi police cell in June 2025 sparked nationwide protests. Photo by Henry Naminde / The 254 Report.*
+*Albert Omondi Ojwang, a 31-year-old teacher and blogger from Homa Bay County, whose death in a Nairobi police cell in June 2025 sparked nationwide protests. (Photo by Henry Naminde)*
 
 On the night of June 7, 2025, teacher and blogger Albert Omondi Ojwang was arrested at his home in Homa Bay County after a senior police commander filed a complaint accusing him of spreading "false and malicious" statements on social media. Police transported Albert more than 350 kilometres to Central Police Station on Harry Thuku Road in Nairobi, booking him into a cell late that night as friends and family waited for news.
 
