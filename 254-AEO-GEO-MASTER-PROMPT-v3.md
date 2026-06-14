@@ -131,6 +131,23 @@ The reader should never feel they're in a template. These are patterns, not a pa
 3. Map each article type to the closest brand color available. Only use non-brand colors (from the table below) when no brand color is a reasonable match.
 4. If brand colors include red/crimson tones, use those for Investigative. If blue tones, use for Analysis. If green tones, use for Health/Environment.
 
+**The 254 Report's detected brand palette (from site CSS, June 2026):**
+- Primary: `#111827` (Deep charcoal)
+- Secondary: `#DFD150` (Gold)
+- Tertiary: `#FFFFFF` (White)
+
+**Suggested brand-to-article mapping:**
+- Investigative / Accountability → `#111827` brand primary (authoritative, serious)
+- Culture / Features → `#DFD150` brand secondary (warm, celebratory)
+- Breaking News → `#111827` brand primary
+- Analysis / Policy → `#111827` brand primary
+- Opinion / Commentary → `#111827` brand primary
+- Human Rights / Justice → `#111827` brand primary
+- Technology / Innovation → `#DFD150` brand secondary
+- Data Deep Dive → `#111827` brand primary
+- Health / Environment → `#111827` brand primary
+- Economy / Business → `#DFD150` brand secondary
+
 #### Article-Type Color Index (Fallback When Brand Colors Don't Match)
 
 | Category | Hex Code | Color Name | When to Use |
