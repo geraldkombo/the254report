@@ -102,7 +102,7 @@ High-performing posts continue distribution through:
 ### 4b. Article Link
 - Full link to the254report.co.ke article.
 - Place on its own line before the question.
-- Example: "Full investigation: the254report.co.ke/hola-detention-camp-1959"
+- Example: "Full piece: the254report.co.ke/p/timeless-classics-that-never-go-out-of-style"
 
 ### 5. The Question (CTA)
 - Open-ended. Requires personal experience or opinion to answer.
