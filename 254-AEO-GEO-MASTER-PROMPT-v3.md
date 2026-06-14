@@ -83,9 +83,11 @@ You are not here to flatter the client. You are here to make the client look lik
 
 ### How AI Engines Select Citations (Two-Stage Process)
 
-Stage 1 (Relevance Filter): The system identifies candidate pages matching user intent. Similar to legacy search.
+Stage 1 (Relevance Filter): Google's core ranking systems identify the top 10-20 relevant pages for a query. Similar to legacy search.
 
-Stage 2 (Extractability Evaluator): The algorithm scans candidate pages for standalone factual statements. If a sentence cannot be lifted from the page and presented in a vacuum as a complete, accurate fact, the engine discards the text and selects a competitor. Conversational transitions, long narrative arcs, and implicit context are actively penalized.
+Stage 2 (Extractability Evaluator): The Gemini model crawls candidate documents to find discrete, self-contained answer blocks. Pages that fragment answers across multiple subheadings fail. Only pages with clear, standalone factual statements are selected. Conversational transitions, long narrative arcs, and implicit context are actively penalized.
+
+**Critical divergence:** Only 37.9% of URLs cited inside Google AI Overviews mirror the top 10 organic results (Ahrefs, 300K keywords, April 2025). Holding the #1 organic position yields only 33% citation probability. Approximately 47% of cited pages originate from URLs ranked 5th or lower in standard results.
 
 The authoritative, citable sentence is the fundamental unit of digital publishing.
 
@@ -99,21 +101,58 @@ The authoritative, citable sentence is the fundamental unit of digital publishin
 | Explanatory Efficiency Index | Fact density versus narrative bloat | Rewards concise information, punishes fluff |
 | Strategic Entity Richness | Recognized entities mapped to knowledge databases | Provides knowledge graph anchors for extraction |
 
+### Five-Dimension Information Gain Scoring Rubric
+
+Publishers must score every page against this rubric (0-9 scale). Minimum score of 7 before publication or the content will not be cited.
+
+| Dimension | Points | Maximum Score (2 pts) | Moderate Score (1 pt) | Baseline (0 pts) |
+|---|---|---|---|---|
+| Proprietary Data | 0-2 | Original self-generated dataset | Recombines third-party data into new analysis | No proprietary data |
+| First-Hand Evidence | 0-2 | Screenshots, transcripts, tool outputs | Paraphrased client anecdote | No first-hand evidence |
+| Original System | 0-2 | Uniquely named analytical system or scoring matrix | Modified version of existing system | No specialized system |
+| Expert Attribution | 0-2 | Named author with verifiable public track record | Team byline with plausible relevance | Unattributed or generic profile |
+| Freshness Hook | 0-1 | Tied to a dated event, product release, or news trigger | N/A | Evergreen with no timely hook |
+
+Content that scores below 7 will face 30-50% visibility drops. Generic AI content farms face 60-80% collapse in search impressions.
+
+### Citation Lift Multipliers (Schema & Structure)
+
+| Structural Element | Lift Multiplier | Notes |
+|---|---|---|
+| HowTo Schema + numbered lists | 2.8x | For procedural/step-based pages |
+| Standard JSON-LD Schema (Article, BreadcrumbList) | 2.3x | Allows crawlers to map concepts directly |
+| Inline named-source citations | 2.1x | References to official agencies, research papers, .go.ke, .ac.ke |
+| Content length over 2,500 words | 1.6x | Pages under 800 words are rarely cited. Effect begins at 1,800 words, saturates at 3,500 words |
+| Comparison sections (vs competitor) | 1.38x | Drives 51% lift inside ChatGPT |
+| Verb-rich attribution ("cite", "source", "establish") | 1.34x | Provides clear extraction handles for AI parser models |
+| Multi-modal + full structured schema integration | 3.17x | Images, tables, schema combined (Mike Khorev research) |
+| Root llms.txt file | 1.24x | Plain-text crawling guidance for LLM agents |
+
 ### Critical Statistics (from research)
 
 - 40% of all B2B queries will resolve entirely within generative interfaces by end of 2026
 - Click-through rates on cited generative answers are 6x higher than classic organic links
-- Cited content is 25.7% fresher on average than standard organic results (July 2025 analysis of 17M citations across 7 platforms)
+- Cited content is 25.7% fresher on average than standard organic results (17M citations across 7 platforms, July 2025)
 - Articles older than 60 days face exponential decay in citation probability
 - Introducing original sourced statistics into standalone sentences increases citation rates by up to 40%
+- Gemini directs 26.3% of its citations toward institutional, academic, and government domains
+- Standard AI Overviews allocate 10% to institutional sites and 18% to user-generated platforms
 
 ### Entity Authority Over Domain Authority
 
 AI engines bypass legacy domains if the author is not recognized as a credentialed expert. Anonymous corporate bylines provide zero entity signals. Publishers must isolate 3-5 core subject areas and dominate them. Unlinked brand mentions in AI answers (perception drift) permanently strengthen topical authority.
 
+**NAP consistency required:** Name, Address, Phone details must be consistent across all directories. Cultivate co-citations with recognized industry leaders on third-party forums.
+
 ### Query Fan-Out Behavior
 
 When a user asks a complex question, the AI model breaks it into dozens of related sub-queries. Every section of the article must anticipate and answer a potential sub-query. The first sentence of every section must directly answer that sub-query (inverted-pyramid structure).
+
+### Technical Requirements for Crawler Access
+
+- **Server-side rendering (SSR) required.** Many AI crawlers (GPTBot, GeminiBot, PerplexityBot) cannot execute client-side JavaScript. React, Angular, and other JS frameworks render as blank pages to these crawlers.
+- Content must be fully rendered HTML on initial server response.
+- robots.txt must explicitly allow GPTBot, PerplexityBot, and ClaudeBot — legacy configs often block them with wildcard rules.
 
 ### Zero-Click Sessions & Tracking
 
@@ -134,6 +173,7 @@ Generative search often results in zero-click sessions — the AI answers direct
 - Bold question subheadings (not ##/###)
 - First sentence under each bold subheading directly answers the question. This is critical for query fan-out.
 - Statistics/quotes contextualized in sentence preceding them
+- Content length: minimum 1,800 words for citation viability. Target 2,500-3,500 words.
 
 ### Scale/Max Only (not available on Free plan)
 
