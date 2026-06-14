@@ -213,6 +213,7 @@ You need at least one from ranks 1-4. Ranks 5-6 are good additions but not suffi
 - At least one clear information gain from ranks 1-4?
 - Zero instances of banned terms: "framework" "uncatalogued" "moreover" "furthermore" "groundbreaking"
 - Read the first 500 words aloud. Does it sound like a journalist wrote it? Would you say these sentences to another person? If not, rewrite.
+- X post and LinkedIn post both generated below the SEO footer?
 
 ### 13. GEO Audit Pre-Flight (Run Before Output) — Free Plan
 
@@ -227,15 +228,49 @@ You need at least one from ranks 1-4. Ranks 5-6 are good additions but not suffi
 - FAQ section in article body (H3 Q&A pairs) — approximates FAQPage schema for AI extraction?
 - No keyword stuffing: primary keyword density under 3%, author name under 2%?
 - Schema JSON-LD, llms.txt, ai/* files: NOT possible on Free plan — skip these checks until Scale/Max upgrade
+- X post and LinkedIn post included below SEO footer with slug?
 
 ### 14. SEO Footer (Set in beehiiv Article Editor)
 ```
 SEO Title: [under 60 chars, primary keyword front-loaded]
 URL Slug: [lowercase, hyphenated, primary keyword]
 Meta Description: [150-160 chars, primary keyword + strong hook]
+AEO Background Color: [hex code from color index]
 Last updated: June 2026 (The 254 Report)
 ```
-Note: SEO Title, URL Slug, Meta Description, and OG fields are set per-article in the beehiiv editor — include them at the end of the markdown file only as a reference for manual entry.
+Note: SEO Title, URL Slug, Meta Description, and OG fields are set per-article in the beehiiv editor — include them at the end of the markdown file only as a reference for manual entry. AEO Background Color goes here, not in the blockquote.
+
+### 15. Social Media Output (Mandatory — Generate After Article)
+
+After completing the article, generate both social posts below the SEO footer.
+
+#### X/Twitter Post (per 254-X-ENGINE-v1 rules)
+- Free plan: 280 characters max. URL counts as 23 via t.co.
+- No link in main tweet. Link in first reply.
+- Hook in first 80 characters. Named entity + date + number.
+- No hashtags in main tweet. Max 1-2 in reply.
+- Ends with an open loop or question.
+
+**Format:**
+```
+X MAIN TWEET:
+[280 chars max, no link, no hashtag]
+
+X FIRST REPLY:
+[1-2 lines context + article link + 1-2 hashtags]
+```
+
+#### LinkedIn Post (per 254-LINKEDIN-ENGINE-v1 rules)
+- 300-700 words. Line breaks every 1-3 sentences.
+- Article link in post body (before the question).
+- No hashtags in body. 3-5 at the end.
+- Specific open-ended question at the end.
+
+**Format:**
+```
+LINKEDIN POST:
+[full post with hook, context, value sections, link, question, hashtags]
+```
 
 ---
 
