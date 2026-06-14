@@ -1,8 +1,8 @@
 # Timeless Classics: Simple Things That Never Go Out of Style
 By Lilian Mbugua
 
-<!-- AEO BLOCK BACKGROUND: #6B2737 (Burgundy — Culture/Features) -->
-
+> **AEO Background Color:** `#6B2737` (Burgundy — Culture/Features)
+>
 > R&B music, leather jackets, and a well-made gin and tonic have something in common: none of them needed reinventing to remain relevant. On World Gin Day 2026, writer Lilian Mbugua reflects on the simple things that refuse to go out of style, not because they resist change, but because they were never meant to be replaced.
 
 In a world where apps update weekly and music algorithms shift by the season, some things stay. Not because they are nostalgic. Because they still work.
