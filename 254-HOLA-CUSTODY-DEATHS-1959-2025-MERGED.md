@@ -4,7 +4,9 @@
 
 *Gen Z protesters march with the Kenyan flag on Kimathi Street in downtown Nairobi, demanding accountability in custody deaths, June 2025. The street is named after Field Marshal Dedan Kimathi Waciuri, a commander in the freedom movement in Kenya who refused to surrender and was captured, tried and hanged by colonial authorities in 1957. Eliud Mutonyi Wanjie's manuscript records that such military titles were adopted by forest leaders "to enable them to command the respect of their juniors and maintain the discipline which was a cardinal feature in winning the war," embodying the movement's motto: say and act. (Photo by Henry Naminde for The 254 Report)*
 
-On March 3, 1959, eleven detainees were beaten to death at Hola detention camp. The colonial government blamed poisoned water. A manuscript by Eliud Mutonyi Wanjie, a detainee in the camp dispensary that morning, records what happened. In June 2025, blogger Albert Ojwang died in a Nairobi police cell. Same pattern: an official story that strains credibility, independent evidence that contradicts it, and accountability that stops short of senior ranks.
+<!-- Beehiiv background color: Premium Slate (investigative/policy) -->
+
+> On March 3, 1959, eleven detainees were beaten to death at Hola detention camp. The colonial government blamed poisoned water. A manuscript by Eliud Mutonyi Wanjie, a detainee in the camp dispensary that morning, records what happened. In June 2025, blogger Albert Ojwang died in a Nairobi police cell. Same pattern: an official story that strains credibility, independent evidence that contradicts it, and accountability that stops short of senior ranks.
 
 On March 3, 1959, Eliud Mutonyi Wanjie watched eleven men die under British warders' clubs at Hola detention camp. On June 7, 2025, blogger Albert Omondi Ojwang entered a police cell at Central Police Station alive and left as a corpse. Between these two deaths lies Kenya's independence, a new constitution, and multiple promises of reform. What has not changed is the pattern: someone dies in state custody, the government offers an explanation that does not match the evidence, independent investigators prove it false, and accountability stops at the lowest rank.
 
@@ -16,7 +18,9 @@ The evidence connecting these two events comes from a source not previously cite
 
 ## What the Manuscript Reveals
 
-Mutonyi's manuscript paints a detailed picture of an organised political movement. He describes a Central Committee meeting in Nairobi at Kiburi House, a secret body called Muhimu, and a War Council that coordinated strategy. The movement's motto in Kikuyu was Kuuga na Gwika, say and act, a rejection of leaders who talked but never risked anything. "It was the colonial government and the settlers who called our freedom struggle 'Mau Mau'," he writes. "To us, it was the freedom movement in Kenya, organised through our own secret committees and councils, fighting for land, dignity and our rights as citizens."
+Mutonyi's manuscript paints a detailed picture of an organised political movement. He describes a Central Committee meeting in Nairobi at Kiburi House, a secret body called Muhimu, and a War Council that coordinated strategy. The movement's motto in Kikuyu was Kuuga na Gwika, say and act, a rejection of leaders who talked but never risked anything.
+
+> "It was the colonial government and the settlers who called our freedom struggle 'Mau Mau'," he writes. "To us, it was the freedom movement in Kenya, organised through our own secret committees and councils, fighting for land, dignity and our rights as citizens."
 
 The movement collected membership fees, administered oaths, and tried to police its own members. Anyone accused of misconduct away from home was sent back to their own area for judgment by people who knew them. Ranks such as general and field marshal were chosen locally by commanders who needed authority, not distributed from a central Nairobi office. These details describe a movement organised around internal discipline, not the criminal gang of colonial propaganda.
 
@@ -32,7 +36,11 @@ By early 1959, Mutonyi had spent five years in the detention camp system. Classi
 
 On the morning of March 3, 1959, guards divided the detainees into three groups. One went to the kitchen. One, including Mutonyi, was ordered to the dispensary and told to squat with heads down. A third group of 85 younger detainees was taken to forced labour in the fields, ordered to dig irrigation furrows with hoes, basins and spades. Each detainee was guarded by five warders carrying rifles, sticks and batons.
 
-From the dispensary, Mutonyi heard "the most agonising and ghastly screams I had ever heard in any camp, never for as long and with such awful intensity as that morning." The warders beat the labour group in clusters of five. They whipped and kept whipping. When it was over, at least eleven men lay dead. Mutonyi watched their bodies carried into the dispensary where he was squatting. A young Red Cross doctor was so affected that he burst into tears and said it was not his job to treat corpses.
+From the dispensary, Mutonyi heard screams.
+
+> "The most agonising and ghastly screams I had ever heard in any camp, never for as long and with such awful intensity as that morning."
+
+The warders beat the labour group in clusters of five. They whipped and kept whipping. When it was over, at least eleven men lay dead. Mutonyi watched their bodies carried into the dispensary where he was squatting. A young Red Cross doctor was so affected that he burst into tears and said it was not his job to treat corpses.
 
 The men who died were:
 
@@ -56,7 +64,9 @@ On the night of June 7, 2025, teacher and blogger Albert Omondi Ojwang was arres
 
 By morning, Albert was dead.
 
-The first police statement said he had killed himself by hitting his head against the cell wall. Government pathologists recorded severe blunt-force injuries to his head, compression of his neck, and multiple bruises across his body. These findings were consistent with assault, not self-harm. The Inspector-General of Police later withdrew the suicide explanation and apologised for releasing false information. The pathologists' conclusion: "The deceased died as a result of severe head injury with neck compression and multiple soft tissue injuries, consistent with assault while in custody."
+The first police statement said he had killed himself by hitting his head against the cell wall. Government pathologists recorded severe blunt-force injuries to his head, compression of his neck, and multiple bruises across his body. These findings were consistent with assault, not self-harm. The Inspector-General of Police later withdrew the suicide explanation and apologised for releasing false information.
+
+> "The deceased died as a result of severe head injury with neck compression and multiple soft tissue injuries, consistent with assault while in custody."
 
 An investigation by the Independent Policing Oversight Authority found that cameras monitoring Albert's cell had been switched off or contained unexplained gaps. Prosecutors charged six suspects, three police officers and three civilians or fellow inmates, with murder. All pleaded not guilty. The case moved into a slow pre-trial phase.
 
