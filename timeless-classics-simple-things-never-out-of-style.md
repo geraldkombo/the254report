@@ -8,7 +8,7 @@ On World Gin Day, the simple things that outlast every trend.
 
 <div style="background-color: #FEF2F2; padding: 16px 20px; border-radius: 8px;">
 
-**AEO Summary:** R&B music, leather jackets, and a well-made gin and tonic share one thing in common. None needed reinvention to stay relevant. On World Gin Day, writer Lilian Mbugua reflects on the things that refuse to go out of style, not because they resist change, but because they were never meant to be replaced.
+R&B music, leather jackets, and a well-made gin and tonic share one thing in common. None needed reinvention to stay relevant. On World Gin Day, writer Lilian Mbugua reflects on the things that refuse to go out of style, not because they resist change, but because they were never meant to be replaced.
 
 </div>
 

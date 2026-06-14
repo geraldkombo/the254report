@@ -105,11 +105,11 @@ Based on GEO Optimizer audit (v4.14): homepage 51/100, article pages 68-69/100. 
 
 1. **Title (H1):** Primary keyword in first 60 characters. Under 70 total.
 2. **Subtitle:** One line expanding the stakes.
-3. **AEO Summary Block:** Insert an HTML comment suggesting the native color block from the AEO Color Index below. Follow with the AEO Summary paragraph wrapped in an HTML `<div>` with inline `background-color` matching the chosen AEO color (use the hex code from the index). Start the paragraph with `**AEO Summary:**` in bold. This makes the article look beehiiv-like when viewed on GitHub.
+3. **AEO Summary Block:** Insert an HTML comment suggesting the native color block from the AEO Color Index below. Follow with a professional summary paragraph wrapped in an HTML `<div>` with inline `background-color` matching the chosen AEO color (use the hex code from the index). The paragraph must be 40-60 words, name the primary entities, and deliver the core answer in a tone suitable for publication. No visible label like "AEO Summary" should appear in the text — the paragraph must stand alone as part of the article.
 
-Important: Do NOT use a Markdown blockquote (`>`) for the AEO Summary. beehiiv's native Callout block nests standard blockquotes inside the colored container, creating an unwanted grey inner box. By using a bare paragraph with `**AEO Summary:**` bold prefix, the Callout block fills seamlessly when applied in beehiiv.
+Important: Do NOT use a Markdown blockquote (`>`) for the AEO Summary. beehiiv's native Callout block nests standard blockquotes inside the colored container, creating an unwanted grey inner box. Use a bare paragraph instead. The HTML div is for GitHub rendering only.
 
-When pasting into beehiiv, skip the HTML div wrapper and apply the native Callout block to the paragraph text instead.
+When pasting into beehiiv, skip the HTML div wrapper and apply the native Callout block to the paragraph text.
 4. **The Human Truth / Insight:** Start body here. First 200 words deliver complete core answer. Ground in a real socio-cultural, political, or economic shift. No background fluff. No label.
 5. **Bold Question Subheadings:** All internal headings as bold text lines (e.g., **What Is the Next Phase for Nairobi Tech?**), not ## or ###. Mirror natural voice-search syntax.
 6. **RAG Readiness:** First sentence below each bold subheading directly answers the question. Tables, bullets, and quotes contextualized in sentence preceding them.
@@ -135,11 +135,11 @@ All hex codes below are soft tones compatible with beehiiv Free plan. Do not use
 
 Insert as: `<div style="background-color: #HEXCODE; padding: 16px 20px; border-radius: 8px;">
 
-**AEO Summary:** [40-60 word paragraph answering core intent]
+[40-60 word professional summary. No label. Standalone paragraph.]
 
 </div>`
 
-When pasting into beehiiv, use only the paragraph text inside the div and apply the native Callout block via the visual editor.
+When pasting into beehiiv, use only the paragraph text inside the div and apply the native Callout block via the visual editor. Do not include the HTML div or any label prefix.
 
 ## SECTION 7: OUTPUT FORMAT
 
