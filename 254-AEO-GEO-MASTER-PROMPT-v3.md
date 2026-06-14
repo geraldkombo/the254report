@@ -73,6 +73,49 @@ These patterns make writing sound like a language model, not a journalist. Do no
 - Entity-first: define every organization, acronym, person on first mention. "The Social Health Authority (SHA), Kenya's public insurer that replaced NHIF in October 2024..."
 - Content freshness: any time-sensitive data must be dated. Articles older than 60 days lose AI citation probability.
 
+## GEO OPTIMIZER AUDIT REQUIREMENTS (Enforced for All Articles)
+
+These are derived from running geo-optimizer-skill v4.14 against the254report.co.ke. Every article must pass these checks to maintain a Good (68+) AI visibility score.
+
+**Schema JSON-LD (must have all):**
+- Organization schema: name, url, logo, sameAs (Wikipedia/Wikidata/LinkedIn/Crunchbase), contactPoint (address, telephone)
+- WebSite schema: name, url, description, potentialAction (SearchAction), dateModified
+- Article or NewsArticle schema: headline, author, datePublished, dateModified, publisher, image, description
+- FAQPage schema: mainEntity array of Question/Answer pairs matching the FAQ section
+- Geo schema: addressCountry, addressLocality, latitude, longitude for Kenya coverage
+
+**Meta Tags (every article):**
+- Meta description: 150-160 characters, primary keyword front-loaded, strong hook
+- OG title: under 60 characters
+- OG description: 150-160 characters (can match meta description)
+- OG image: must exist and be ≥ 1200x630
+- Canonical URL: must be set and self-referencing
+
+**llms.txt (site-wide, but article contributes):**
+- Every article must be linked from llms.txt with descriptive anchor text
+- llms.txt structure: H1 > blockquote description > ## sections > markdown links
+
+**Content Structure (per article):**
+- H1: first line of content, primary keyword in first 60 characters, under 70 characters
+- H2/H3 heading hierarchy: at least one H3 per H2 section, never skip levels
+- Lists or tables in every article: bullets for items, tables for comparisons. AI engines extract these at +41% citability.
+- Sections of 100-300 words with definition openings (RAG chunk readiness: target 60+)
+- Statistics with source attribution: +33% citability boost
+- External citations to .go.ke, UN, AU, WB, .ac.ke: +27% citability
+- Date on every time-sensitive claim to defeat content decay detection
+
+**Brand & Entity Signals (per article):**
+- Author byline with link to author bio page
+- About the publication context in first 500 words (who The 254 Report is)
+- Contact information or link to contact page
+- DateModified in schema metadata (cannot be missing — triggers content decay flag)
+
+**Trust Signals:**
+- Every assertion attributed to a named source, document, or dataset
+- No unsourced statistics (triggers "thin content" flag)
+- Author attribution in Article schema (prevents "no author signal" penalty)
+- External authoritative source links in body (prevents "boilerplate" flag)
+
 ## ARTICLE BLUEPRINT
 
 The reader should never feel they're in a template. These are patterns, not a paint-by-numbers checklist.
@@ -159,7 +202,22 @@ You need at least one from ranks 1-4. Ranks 5-6 are good additions but not suffi
 - Zero instances of banned terms: "framework" "uncatalogued" "moreover" "furthermore" "groundbreaking"
 - Read the first 500 words aloud. Does it sound like a journalist wrote it? Would you say these sentences to another person? If not, rewrite.
 
-### 13. SEO Footer
+### 13. GEO Audit Pre-Flight (Run Before Output)
+
+- Meta description present (150-160 chars) and OG description present?
+- Organization, WebSite, Article, FAQPage schema all present with required fields?
+- At least one list or table in the article body?
+- H2/H3 heading hierarchy present (no skipped levels)?
+- Author attribution in Article schema with link?
+- dateModified in schema metadata?
+- External authoritative source links (.go.ke, UN, AU, WB, .ac.ke)?
+- Statistics with inline source attribution?
+- Every time-sensitive claim includes a date or timeframe?
+- About-the-publication context in first 500 words?
+- RAG chunk readiness: sections between 100-300 words with definition openings?
+- No keyword stuffing: primary keyword density under 3%, author name under 2%?
+
+### 14. SEO Footer
 ```
 SEO Title: [under 60 chars, primary keyword front-loaded]
 URL Slug: [lowercase, hyphenated, primary keyword]
@@ -173,12 +231,12 @@ Last updated: June 2026 (The 254 Report)
 
 Each AI engine prefers a different structure. Target your primary platform, but never sacrifice human voice for any of them.
 
-| Platform | Citation Trigger | Structure Preference | Freshness | Extraction Pattern |
-|---|---|---|---|---|
-| Google AI Overviews | Entity-first + authoritative backlinks (.go.ke, UN, AU, WB) | Lists, tables, definition-first | 60 days | First 200 words |
-| Perplexity | Named-source paragraphs + recent timestamps | Citation-heavy, source-linked | 30 days | Paragraph-level attribution |
-| ChatGPT | Bold question subheadings + direct answer beneath | Q&A pairs, FAQ format | 60 days | Semantic chunking |
-| Gemini | FAQ/HowTo/Table schema markup | Structured data, numbered steps, comparative tables | 60 days | Schema-rich hierarchy |
+| Platform | GEO Score | Citation Trigger | Structure Preference | Freshness | Extraction Pattern |
+|---|---|---|---|---|---|---|
+| Google AI Overviews | **51/100** | Entity-first + authoritative backlinks (.go.ke, UN, AU, WB) | Lists, tables, definition-first, schema JSON-LD (Article, FAQPage, Organization) | 60 days | First 200 words + structured data |
+| Perplexity | **68/100** | Named-source paragraphs + recent timestamps + llms.txt links | Citation-heavy, source-linked, llms.txt inclusion, dateModified schema | 30 days | Paragraph-level attribution |
+| ChatGPT | **55/100** | Bold question subheadings + direct answer beneath + FAQPage schema | Q&A pairs, FAQ format, Organization schema for entity clarity | 60 days | Semantic chunking + schema |
+| Gemini | — | FAQ/HowTo/Table schema markup | Structured data, numbered steps, comparative tables | 60 days | Schema-rich hierarchy |
 
 ---
 
@@ -208,10 +266,10 @@ These have been confirmed through primary sources. Use them as-is.
 **Wanjie Manuscript Title:**
 *Maumau: An Account of the Darkest Days of the Emergency* (not "uncatalogued" — that language has been retired)
 
-**Kikuyu Phrases (verified against manuscript OCR and online sources):**
-- Kuuga na Gwika (meaning: talk and do)
-- Kuri o kuo? (meaning: is it true? — used as a coded loyalty test at Kapenguria)
-- Kuri noogo (meaning: it is you)
-- Muhimu (meaning: important/crucial)
+**Kikuyu Phrases (verified against manuscript OCR — Mutonyi Wanjie's own translations):**
+- Kuuga na Gwika (meaning: say and act — the freedom movement's motto)
+- Kuri o kuo? (meaning: Are you still alive/there? — coded exchange at Kapenguria trial)
+- Kuri noogo (meaning: Is smoke still there? — coded reply at Kapenguria trial)
+- Muhimu (meaning: important/secret — the inner council name)
 
 **The 254 Report published the Gen Z protest photos at Kimathi Street.** If referencing: original reporting by Gerald Kombo, The 254 Report. Not a wire service photo.

@@ -6,11 +6,11 @@
 
 <!-- Beehiiv background color: Premium Slate (investigative/policy) -->
 
-> On March 3, 1959, eleven detainees were beaten to death at Hola detention camp. The colonial government blamed poisoned water. A manuscript by Eliud Mutonyi Wanjie, a detainee in the camp dispensary that morning, records the truth. In June 2025, blogger Albert Ojwang died in a Nairobi police cell. Same pattern: an implausible official explanation, independent evidence that contradicts it, and accountability that stops short of senior ranks.
+> On March 3, 1959, eleven detainees were beaten to death at Hola detention camp. The colonial government blamed poisoned water. A manuscript by Eliud Mutonyi Wanjie, a detainee in the camp dispensary that morning, records what happened. In June 2025, blogger Albert Ojwang died in a Nairobi police cell. Same pattern: an official story that strains credibility, independent evidence that contradicts it, and accountability that stops short of senior ranks.
 
-On March 3, 1959, Eliud Mutonyi Wanjie watched eleven men die under British warders' clubs at Hola detention camp. On June 7, 2025, blogger Albert Omondi Ojwang entered a police cell at Central Police Station alive and left as a corpse. Between these two deaths lies Kenya's independence, a new constitution, and multiple promises of reform. What has not changed is the pattern: someone dies in state custody, the government offers an explanation that strains credibility, independent evidence demolishes it, and accountability stops at the lowest possible rank.
+On March 3, 1959, Eliud Mutonyi Wanjie watched eleven men die under British warders' clubs at Hola detention camp. On June 7, 2025, blogger Albert Omondi Ojwang entered a police cell at Central Police Station alive and left as a corpse. Between these two deaths lies Kenya's independence, a new constitution, and multiple promises of reform. What has not changed is the pattern: someone dies in state custody, the government offers an explanation that does not match the evidence, independent investigators prove it false, and accountability stops at the lowest rank.
 
-The evidence connecting these two events comes from a source that has never before been cited in journalism. A handwritten manuscript titled "Maumau: An Account of the Darkest Days of the Emergency," written by Mutonyi himself and held at the Kenya National Archives, records the internal organisation of the freedom movement in Kenya, the logistics of the Kapenguria trial, and the only known firsthand account of the Hola massacre. Sixty-six years later, the same pattern the manuscript documents, an implausible official story, independent evidence that refutes it, and impunity for senior officials, recurred in a police cell in downtown Nairobi.
+The evidence connecting these two events comes from a source not previously cited in journalism. A handwritten manuscript titled "Maumau: An Account of the Darkest Days of the Emergency," written by Mutonyi himself and held at the Kenya National Archives, records the internal organisation of the freedom movement in Kenya, the logistics of the Kapenguria trial, and the only known firsthand account of the Hola massacre. Sixty-six years later, the same pattern the manuscript documents, an official story that does not hold up, independent evidence that refutes it, and impunity for senior officials, recurred in a police cell in downtown Nairobi.
 
 ![](https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/asset/file/fd067180-498e-46f7-b4ea-b22a656e1c9c/1000568155.jpg?t=1767282211)
 
@@ -18,11 +18,11 @@ The evidence connecting these two events comes from a source that has never befo
 
 ## What the Manuscript Reveals
 
-Mutonyi's manuscript paints a detailed picture of an organised political movement, not the criminal cult of colonial propaganda. He describes a Central Committee meeting in Nairobi at Kiburi House, a secret body called Muhimu, and a War Council that coordinated strategy. The movement's motto in Kikuyu was Kuuga na Gwika, say and act, a rejection of leaders who talked but never risked anything.
+Mutonyi's manuscript paints a detailed picture of an organised political movement. He describes a Central Committee meeting in Nairobi at Kiburi House, a secret body called Muhimu, and a War Council that coordinated strategy. The movement's motto in Kikuyu was Kuuga na Gwika, say and act, a rejection of leaders who talked but never risked anything.
 
 "It was the colonial government and the settlers who called our freedom struggle 'Mau Mau'," he writes. "To us, it was the freedom movement in Kenya, organised through our own secret committees and councils, fighting for land, dignity and our rights as citizens."
 
-The movement collected membership fees, administered oaths, and tried to police its own members. Anyone accused of misconduct away from home was sent back to their own area for judgment by people who knew them. Ranks such as general and field marshal were chosen locally by commanders who needed authority, not distributed from a central Nairobi office. Mutonyi includes these details deliberately: they show discipline, not chaos.
+The movement collected membership fees, administered oaths, and tried to police its own members. Anyone accused of misconduct away from home was sent back to their own area for judgment by people who knew them. Ranks such as general and field marshal were chosen locally by commanders who needed authority, not distributed from a central Nairobi office. These details describe a movement organised around internal discipline, not the criminal gang of colonial propaganda.
 
 Before his own detention, Mutonyi was assigned to coordinate defence logistics for the Kapenguria trial of Jomo Kenyatta and five other leaders. The trial ran 58 days from November 1952 to March 1953. He managed an international legal team that included Mr Davies from Nigeria and Mr Chamalal from India. Two lawyers from India were refused entry at the border and turned back.
 
@@ -52,7 +52,7 @@ After the massacre, the survivors were refused food for 19 days. The Red Cross d
 
 When the Governor, Sir Evelyn Baring, visited the camp, Mutonyi confronted him. Baring replied: "You are the worst Mau Mau and no one should have mercy upon you. You have lived with hard heads and have refused to co-operate with the government. Therefore, you will never be allowed to return to your Kikuyu country and you will perish right in here." Then he added: "Even if I found you dead, I could not have been worried a bit."
 
-No senior official lost their position. The camp was later removed from maps and renamed Galole, a change Mutonyi interpreted as a second attempt to bury what happened there.
+No senior official lost his post. The camp was later removed from maps and renamed Galole, a change Mutonyi interpreted as a second attempt to bury what happened there.
 
 ## A Teacher and Blogger Dies in Police Custody
 
@@ -64,7 +64,7 @@ On the night of June 7, 2025, teacher and blogger Albert Omondi Ojwang was arres
 
 By morning, Albert was dead.
 
-The first police statement said he had hit his head repeatedly against the cell wall, an apparent suicide. Government pathologists recorded severe blunt-force injuries to his head, compression of his neck, and multiple bruises across his body. These findings were consistent with assault, not self-harm. The Inspector-General of Police later withdrew the suicide claim and apologised for releasing false information.
+The first police statement said he had killed himself by hitting his head against the cell wall. Government pathologists recorded severe blunt-force injuries to his head, compression of his neck, and multiple bruises across his body. These findings were consistent with assault, not self-harm. The Inspector-General of Police later withdrew the suicide explanation and apologised for releasing false information.
 
 "The deceased died as a result of severe head injury with neck compression and multiple soft tissue injuries, consistent with assault while in custody."
 
@@ -80,7 +80,7 @@ In central Nairobi, demonstrators carried the national flag between banks and of
 
 At his funeral, the procession turned into another march toward a nearby police station. Mourners chanted against deaths in custody and what they called a culture of impunity in uniform.
 
-By December 2025, the protests had largely disappeared from national headlines. The court case dragged on. The pattern that Mutonyi had documented in 1959, public outrage followed by bureaucratic quiet, was repeating itself.
+By December 2025, the protests had largely disappeared from national headlines. The court case dragged on. The pattern Mutonyi had documented in 1959, public outrage followed by silence, was repeating itself.
 
 ## What Connects Hola 1959 to Central Police Station 2025
 
@@ -145,3 +145,85 @@ Both cases follow the same pattern: someone dies in state custody, officials off
 **Twitter Description:** Hola 1959: 11 detainees beaten to death, government blamed poisoned water. A manuscript by Eliud Mutonyi Wanjie titled "Maumau: An Account of the Darkest Days of the Emergency" records the truth. 2025: blogger killed in police cell, same pattern.
 
 **Hashtags:** #HolaMassacre #EliudMutonyiWanjie #MauMau #KenyaNationalArchives #CustodyDeaths #AlbertOjwang #PoliceAccountability
+
+## BEEHIIV GEO SETUP (Paste in Custom Code Section)
+
+### Alt Text for Images (Set in Beehiiv Image Upload Dialog)
+
+| Image | Alt Text |
+|---|---|
+| Hero (protesters) | Gen Z protesters march with the Kenyan flag on Kimathi Street in downtown Nairobi, demanding accountability in custody deaths, June 2025. Kimathi Street is named after Field Marshal Dedan Kimathi Waciuri, a commander in the freedom movement in Kenya who was hanged by colonial authorities in 1957. |
+| Manuscript cover | The worn red-bound cover of Eliud Mutonyi Wanjie's unpublished manuscript "Maumau: An Account of the Darkest Days of the Emergency," held at the Kenya National Archives in Nairobi. The typed label on the red binding identifies the handwritten account of a former detainee who witnessed the 1959 Hola detention camp massacre. |
+| Albert Ojwang portrait | Albert Omondi Ojwang, a 31-year-old teacher and blogger from Homa Bay County, Kenya, whose death in a Nairobi police cell in June 2025 sparked nationwide protests against custody deaths and police impunity. |
+
+### JSON-LD Schema (Paste into Beehiiv Custom Code <head>)
+
+```
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "NewsArticle",
+  "headline": "From Hola Detention Camp 1959 to Central Police Station 2025: Kenyans Are Still Fighting for Accountability in Custody Deaths",
+  "datePublished": "2026-06-14T00:00:00+03:00",
+  "dateModified": "2026-06-14T00:00:00+03:00",
+  "author": {
+    "@type": "Person",
+    "name": "Gerald Kombo",
+    "url": "https://www.the254report.co.ke/authors/gerald-kombo"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "The 254 Report",
+    "url": "https://www.the254report.co.ke"
+  },
+  "description": "A manuscript titled 'Maumau: An Account of the Darkest Days of the Emergency' by Eliud Mutonyi Wanjie, a detainee present at Hola on March 3 1959, describes the beatings that killed 11 men, the Red Cross doctor who broke down crying, and the colonial cover-up that blamed poisoned water. The same pattern appears in a 2025 police cell killing.",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://www.the254report.co.ke/p/from-hola-detention-camp-1959-to-central-police-station-2025-kenyans-are-still-fighting-for-accounta"
+  }
+}
+</script>
+```
+
+```
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What was the Hola detention camp massacre?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "On March 3, 1959, British colonial warders beat eleven detainees to death at Hola detention camp in what is now Tana River County, Kenya. The government initially blamed poisoned water. Medical evidence proved the men died from beatings. A manuscript by Eliud Mutonyi Wanjie, a detainee present in the camp dispensary that morning, provides the only known firsthand eyewitness account."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Who was Eliud Mutonyi Wanjie?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Eliud Mutonyi Wanjie was a Kapenguria trial defence coordinator, a Central Committee and War Council member for Murang'a district, and a detainee present at Hola on March 3, 1959. His manuscript, held at the Kenya National Archives, is the only known firsthand account covering the Kapenguria trial logistics, the War Council and Nairobi cell organisation, the oath administration hierarchy, and the Hola massacre eyewitness narrative."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Who was Albert Omondi Ojwang?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Albert Omondi Ojwang was a 31-year-old teacher and blogger from Homa Bay County, Kenya. He was arrested on June 6, 2025, following a complaint filed by a senior police commander and died in a cell at Central Police Station, Nairobi. Government pathologists found injuries consistent with assault, contradicting the initial police claim of suicide."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What links Hola 1959 to Central Police Station 2025?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Both cases follow the same pattern: someone dies in state custody, officials offer an implausible explanation, independent evidence exposes the falsehood, and accountability stops at junior ranks. In Hola, the colonial government blamed poisoned water. In 2025, police blamed suicide. Both explanations collapsed under independent evidence, and no senior official faced consequences."
+      }
+    }
+  ]
+}
+</script>
+```

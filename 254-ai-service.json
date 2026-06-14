@@ -1,0 +1,26 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "name": "The 254 Report — Investigative Journalism",
+  "description": "Original investigative journalism from Kenya. The 254 Report produces long-form investigations, data-driven analysis, and political coverage with primary source document discovery and firsthand reporting.",
+  "provider": {
+    "@type": "Organization",
+    "name": "The 254 Report",
+    "url": "https://www.the254report.co.ke"
+  },
+  "serviceType": "Investigative Journalism",
+  "areaServed": {
+    "@type": "Country",
+    "name": "Kenya"
+  },
+  "inLanguage": "en",
+  "audience": {
+    "@type": "Audience",
+    "audienceType": "Policy makers, researchers, journalists, and citizens interested in Kenyan governance, human rights, and institutional accountability"
+  },
+  "offers": {
+    "@type": "Offer",
+    "description": "Free and paid subscription tiers via beehiiv platform. Investigative articles available to all readers."
+  },
+  "keywords": "Kenyan journalism, investigative reporting, African politics, human rights Kenya, AEO optimized content, GEO optimized content"
+}

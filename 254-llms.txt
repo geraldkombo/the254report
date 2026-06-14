@@ -1,0 +1,30 @@
+# The 254 Report — Independent Kenyan Journalism
+
+> The 254 Report publishes original investigative journalism covering power, politics, technology, human rights, and the institutions that shape East Africa's largest economy. Based in Nairobi, Kenya.
+
+## Investigative & Human Rights
+
+- [From Hola Detention Camp 1959 to Central Police Station 2025: Kenyans Are Still Fighting for Accountability in Custody Deaths](https://www.the254report.co.ke/p/from-hola-detention-camp-1959-to-central-police-station-2025-kenyans-are-still-fighting-for-accounta): A manuscript by Eliud Mutonyi Wanjie, a detainee present at Hola on March 3, 1959, describes the beatings that killed 11 men, the Red Cross doctor who broke down crying, and the colonial cover-up that blamed poisoned water. The same pattern appears in the 2025 police cell killing of blogger Albert Ojwang.
+- [Femicide in Kenya 2026: Crisis Data from FIDA and Amnesty Demands Presidential Action](https://www.the254report.co.ke/p/femicide-in-kenya-2026-fida-amnesty-crisis): At least 8 femicide cases weekly in Kenya. FIDA Kenya and Amnesty International data tracking the crisis.
+- [Kenya Finance Bill 2026: The KSh 4.8T Debt Trap Exposed by Okoa Uchumi](https://www.the254report.co.ke/p/kenya-finance-bill-2026-the-ksh-4-8t-debt-trap-exposed-by-okoa-uchumi): Analysis of Kenya's public debt trajectory and the 2026 Finance Bill provisions.
+
+## Governance & Politics
+
+- [UDA Sweeps By-Elections: Inside the Broad-Based Coalition's 2027 Strategy](https://www.the254report.co.ke/p/uda-by-elections-2027-strategy): Analysis of Kenya's ruling coalition electoral strategy ahead of the 2027 general election.
+- [Hon. Catherine Omanyo Urges #SomaFinance; IPF Data & Oxfam Kenya Wealth Tax Call on Finance Bill 2026](https://www.the254report.co.ke/p/hon-catherine-omanyo-urges-somafinance-ipf-data-oxfam-kenya-wealth-tax-call-on-finance-bill-2026): Parliamentary debate on financial education and wealth redistribution.
+
+## Technology & Innovation
+
+- [AI Everything Kenya x GITEX 2026: Nairobi Hosts East Africa's Largest AI Event](https://www.the254report.co.ke/p/ai-everything-kenya-x-gitex-2026-nairobi-hosts-east-africas-largest-ai-event): Coverage of East Africa's premier artificial intelligence conference in Nairobi.
+- [African AI Rewrites the Playbook: How Nairobi is Upending Global Tech Architecture](https://www.the254report.co.ke/p/african-ai-rewrites-the-playbook-how-nairobi-is-upending-global-tech-architecture): How Kenyan tech innovation is reshaping global AI architecture.
+
+## Economy & Business
+
+- [Kenya's Electric Boda Boda Revolution Has a KES 27,000 Problem. And It's Not the Bike. It's KPLC.](https://www.the254report.co.ke/p/kenyas-electric-boda-boda-revolution-has-a-kes-27-000-problem-and-its-not-the-bike-its-kplc): The gap between e-mobility adoption and Kenya Power's infrastructure readiness.
+- [Finance Bill 2026 Sparks New Battle Over Electric Mobility, Fuel Taxes, and Kenya's Shrinking Disposable Income](https://www.the254report.co.ke/p/kenya-finance-bill-2026-sparks-new-battle-over-electric-mobility-fuel-taxes-and-kenyas-shrinking-disposable-income): Tax policy impacts on Kenya's green transport transition.
+- [oraimo Expands into Home and Baby Products: Africa-First Strategy Drives Growth in Kenya](https://www.the254report.co.ke/p/oraimo-expands-into-home-and-baby-products-africa-first-strategy-drives-growth-in-kenya): Chinese tech brand's expansion strategy in the Kenyan market.
+
+## RSS Feed
+
+- [Full RSS Feed](https://rss.beehiiv.com/feeds/tky9fzrKTz.xml)
+- [llms-full.txt](https://www.the254report.co.ke/llms-full.txt)

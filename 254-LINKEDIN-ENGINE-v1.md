@@ -147,3 +147,14 @@ SPECIAL INSTRUCTIONS: [red lines, banned references, angle]
 ```
 
 Output one complete LinkedIn post, ready to paste. No external tools. No Unicode for keywords. No links in main body.
+
+## AEO/GEO FEEDBACK LOOP
+
+LinkedIn posts drive traffic to the254report.co.ke. For that traffic to be AI-citable:
+
+- The linked article must have complete Organization + Article schema (GEO audit requirement)
+- The article must have meta description + OG description (currently missing site-wide)
+- The LinkedIn profile should be linked via sameAs in the site's Organization schema (brand entity signal, currently 2/10)
+- Creating/verifying a LinkedIn page for The 254 Report improves the site's Knowledge Graph pillar score
+
+Post in replies (never body) pointing to articles that have passed the GEO pre-flight check.

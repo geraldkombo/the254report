@@ -150,3 +150,15 @@ DESIRED LENGTH: [5 | 6 | 7 | 8 tweets]
 ```
 
 Output one complete tweet with reply, or a full numbered thread. Ready to paste. No links or hashtags in main tweet. No em-dashes.
+
+## AEO/GEO FEEDBACK LOOP
+
+X posts drive traffic to the254report.co.ke. For that traffic to be AI-citable:
+
+- xAI-Bot is already allowed in robots.txt ✓ (verified via GEO audit)
+- Grok citation optimization (entity-date-number structure) is already in this prompt ✓
+- The linked article must have dateModified in Article schema (currently missing site-wide — triggers content decay flag)
+- Primary keyword in article title + meta description + first 200 words for Google AI Overviews extraction (site-wide score: 51/100)
+- Create/verify an X profile that matches the site's Organization schema sameAs link for Knowledge Graph disambiguation
+
+Share articles in reply (never main tweet) that have passed the GEO pre-flight check.
