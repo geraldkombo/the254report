@@ -119,34 +119,17 @@ The reader should never feel they're in a template. These are patterns, not a pa
 
 ### 3. AEO Summary Block
 - Blockquote: 40-60 words. Answers the core question someone would type into a search engine.
-- Apply background color based on article type using the AEO Color Index below. Pick the closest match to article tone and insert as a beehiiv background color comment.
+- Pick an AEO background color using the AEO Color Index below based on article type and closest brand color match. Place the selected color in the SEO metadata section at the bottom of the article (not in the blockquote itself).
 
 ### AEO Color Index (Pick Intelligently by Article Type + Brand)
 
 **Brand colors take priority over article-type colors.** Detect The 254 Report's brand palette from the publication logo, website, and social media assets. Use the closest brand color to the article's primary tone.
 
 #### Brand Color Detection (Run First)
-1. Extract dominant colors from the publication logo at `https://www.the254report.co.ke` and the beehiiv publication settings.
+1. Extract dominant colors from the publication logo, website CSS, and beehiiv publication settings.
 2. Identify primary, secondary, and accent brand colors.
 3. Map each article type to the closest brand color available. Only use non-brand colors (from the table below) when no brand color is a reasonable match.
 4. If brand colors include red/crimson tones, use those for Investigative. If blue tones, use for Analysis. If green tones, use for Health/Environment.
-
-**The 254 Report's detected brand palette (from site CSS, June 2026):**
-- Primary: `#111827` (Deep charcoal)
-- Secondary: `#DFD150` (Gold)
-- Tertiary: `#FFFFFF` (White)
-
-**Suggested brand-to-article mapping:**
-- Investigative / Accountability → `#111827` brand primary (authoritative, serious)
-- Culture / Features → `#DFD150` brand secondary (warm, celebratory)
-- Breaking News → `#111827` brand primary
-- Analysis / Policy → `#111827` brand primary
-- Opinion / Commentary → `#111827` brand primary
-- Human Rights / Justice → `#111827` brand primary
-- Technology / Innovation → `#DFD150` brand secondary
-- Data Deep Dive → `#111827` brand primary
-- Health / Environment → `#111827` brand primary
-- Economy / Business → `#DFD150` brand secondary
 
 #### Article-Type Color Index (Fallback When Brand Colors Don't Match)
 
