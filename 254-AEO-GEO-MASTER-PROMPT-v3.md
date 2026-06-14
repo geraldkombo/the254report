@@ -73,29 +73,20 @@ These patterns make writing sound like a language model, not a journalist. Do no
 - Entity-first: define every organization, acronym, person on first mention. "The Social Health Authority (SHA), Kenya's public insurer that replaced NHIF in October 2024..."
 - Content freshness: any time-sensitive data must be dated. Articles older than 60 days lose AI citation probability.
 
-## GEO OPTIMIZER AUDIT REQUIREMENTS (Enforced for All Articles)
+## GEO OPTIMIZER AUDIT REQUIREMENTS
 
-These are derived from running geo-optimizer-skill v4.14 against the254report.co.ke. Every article must pass these checks to maintain a Good (68+) AI visibility score.
+GEO Optimizer audit (v4.14) scored the254report.co.ke: homepage 51/100, article pages 68-69/100. These requirements are split by what's possible on the **Free plan** vs what needs **Scale/Max upgrade**.
 
-**Schema JSON-LD (must have all):**
-- Organization schema: name, url, logo, sameAs (Wikipedia/Wikidata/LinkedIn/Crunchbase), contactPoint (address, telephone)
-- WebSite schema: name, url, description, potentialAction (SearchAction), dateModified
-- Article or NewsArticle schema: headline, author, datePublished, dateModified, publisher, image, description
-- FAQPage schema: mainEntity array of Question/Answer pairs matching the FAQ section
-- Geo schema: addressCountry, addressLocality, latitude, longitude for Kenya coverage
+### ✅ Free Plan (Apply Now — All in Article Body + Beehiiv Editor)
 
-**Meta Tags (every article):**
+**Meta Tags (set in beehiiv article editor per-article):**
 - Meta description: 150-160 characters, primary keyword front-loaded, strong hook
 - OG title: under 60 characters
 - OG description: 150-160 characters (can match meta description)
 - OG image: must exist and be ≥ 1200x630
-- Canonical URL: must be set and self-referencing
+- Canonical URL: auto-set by beehiiv — no action needed
 
-**llms.txt (site-wide, but article contributes):**
-- Every article must be linked from llms.txt with descriptive anchor text
-- llms.txt structure: H1 > blockquote description > ## sections > markdown links
-
-**Content Structure (per article):**
+**Content Structure (in article body):**
 - H1: first line of content, primary keyword in first 60 characters, under 70 characters
 - H2/H3 heading hierarchy: at least one H3 per H2 section, never skip levels
 - Lists or tables in every article: bullets for items, tables for comparisons. AI engines extract these at +41% citability.
@@ -104,17 +95,16 @@ These are derived from running geo-optimizer-skill v4.14 against the254report.co
 - External citations to .go.ke, UN, AU, WB, .ac.ke: +27% citability
 - Date on every time-sensitive claim to defeat content decay detection
 
-**Brand & Entity Signals (per article):**
-- Author byline with link to author bio page
-- About the publication context in first 500 words (who The 254 Report is)
-- Contact information or link to contact page
-- DateModified in schema metadata (cannot be missing — triggers content decay flag)
-
-**Trust Signals:**
+**Brand & Entity Signals (in article body):**
+- Author byline and context about The 254 Report within first 500 words
+- Contact information or link to contact/about page
 - Every assertion attributed to a named source, document, or dataset
-- No unsourced statistics (triggers "thin content" flag)
-- Author attribution in Article schema (prevents "no author signal" penalty)
-- External authoritative source links in body (prevents "boilerplate" flag)
+
+### 🔒 Scale/Max Only (Not Available on Free — Schema Requires Custom Code Injection)
+
+Schema JSON-LD (Organization, WebSite, Article, FAQPage, Geo), llms.txt / ai/*.json files, and Premium Slate background colors are **not possible on the Free plan**. Do not include them in articles or checklists. These sections will be activated when the publication upgrades.
+
+**Workaround for Free plan:** FAQPage schema can be approximated via the FAQ section in article body (H3 Q&A pairs) — AI engines still extract from this structure even without the JSON wrapper.
 
 ## ARTICLE BLUEPRINT
 
@@ -129,7 +119,7 @@ The reader should never feel they're in a template. These are patterns, not a pa
 
 ### 3. AEO Summary Block
 - Blockquote: 40-60 words. Answers the core question someone would type into a search engine.
-- Include a beehiiv background color comment for the publisher when available on the plan.
+- Plain `> ` blockquote only — no background color styling (Free plan limitation).
 
 ### 4. Opening
 - First 200 words contain the full core answer. That's the AI extraction window.
@@ -197,28 +187,28 @@ You need at least one from ranks 1-4. Ranks 5-6 are good additions but not suffi
 - Zero instances of banned terms: "framework" "uncatalogued" "moreover" "furthermore" "groundbreaking"
 - Read the first 500 words aloud. Does it sound like a journalist wrote it? Would you say these sentences to another person? If not, rewrite.
 
-### 13. GEO Audit Pre-Flight (Run Before Output)
+### 13. GEO Audit Pre-Flight (Run Before Output) — Free Plan
 
-- Meta description present (150-160 chars) and OG description present?
-- Organization, WebSite, Article, FAQPage schema all present with required fields?
-- At least one list or table in the article body?
+- Meta description present (150-160 chars) and OG description present? (set in beehiiv editor)
+- At least one list or table in the article body? (Free plan: in-body only)
 - H2/H3 heading hierarchy present (no skipped levels)?
-- Author attribution in Article schema with link?
-- dateModified in schema metadata?
-- External authoritative source links (.go.ke, UN, AU, WB, .ac.ke)?
-- Statistics with inline source attribution?
-- Every time-sensitive claim includes a date or timeframe?
-- About-the-publication context in first 500 words?
+- Author byline + about-publication context within first 500 words? (Free plan: in-body, no schema)
+- External authoritative source links (.go.ke, UN, AU, WB, .ac.ke)? (+27% citability)
+- Statistics with inline source attribution? (+33% citability)
+- Every time-sensitive claim includes a date or timeframe? (defeats content decay)
 - RAG chunk readiness: sections between 100-300 words with definition openings?
+- FAQ section in article body (H3 Q&A pairs) — approximates FAQPage schema for AI extraction?
 - No keyword stuffing: primary keyword density under 3%, author name under 2%?
+- Schema JSON-LD, llms.txt, ai/* files: NOT possible on Free plan — skip these checks until Scale/Max upgrade
 
-### 14. SEO Footer
+### 14. SEO Footer (Set in beehiiv Article Editor)
 ```
 SEO Title: [under 60 chars, primary keyword front-loaded]
 URL Slug: [lowercase, hyphenated, primary keyword]
 Meta Description: [150-160 chars, primary keyword + strong hook]
 Last updated: June 2026 (The 254 Report)
 ```
+Note: SEO Title, URL Slug, Meta Description, and OG fields are set per-article in the beehiiv editor — include them at the end of the markdown file only as a reference for manual entry.
 
 ---
 
