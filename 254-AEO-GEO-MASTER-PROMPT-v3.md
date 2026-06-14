@@ -271,22 +271,3 @@ SOURCE MATERIAL: [Paste your raw press release, transcript, interview notes, or 
 SPECIAL INSTRUCTIONS: [angle, red lines, people to protect, banned references, tone notes]
 ```
 
----
-
-## VERIFIED REFERENCE DATA (Do Not Hallucinate Alternatives)
-
-These have been confirmed through primary sources. Use them as-is.
-
-**Hola Massacre Victims (March 3, 1959) — 11 names per Nation Africa monument inscription (July 2020):**
-*Full list of 11 names — confirmed correct. Do not add, remove, or alter. Attribution to the Nation Africa monument on further reading.*
-
-**Wanjie Manuscript Title:**
-*Maumau: An Account of the Darkest Days of the Emergency* (not "uncatalogued" — that language has been retired)
-
-**Kikuyu Phrases (verified against manuscript OCR — Mutonyi Wanjie's own translations):**
-- Kuuga na Gwika (meaning: say and act — the freedom movement's motto)
-- Kuri o kuo? (meaning: Are you still alive/there? — coded exchange at Kapenguria trial)
-- Kuri noogo (meaning: Is smoke still there? — coded reply at Kapenguria trial)
-- Muhimu (meaning: important/secret — the inner council name)
-
-**The 254 Report published the Gen Z protest photos at Kimathi Street.** If referencing: original reporting by Gerald Kombo, The 254 Report. Not a wire service photo.
