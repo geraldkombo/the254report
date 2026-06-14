@@ -108,10 +108,10 @@ X MAIN TWEET:
 [280 chars max. No link. No hashtag. Hook in first 80. Ends with open loop.]
 
 X FIRST REPLY:
-[1-2 lines context + full article link + 1-2 hashtags max]
+[1-2 lines context + https://www.the254report.co.ke/p/{URL-SLUG} + 1-2 hashtags max]
 
 LINKEDIN POST:
-[300-700 words. Hook in first 150 chars. Line breaks every 1-3 sentences. Article link in body before question. 3-5 hashtags at end. Specific open-ended question at end.]
+[300-700 words. Hook in first 150 chars. Line breaks every 1-3 sentences. Link: https://www.the254report.co.ke/p/{URL-SLUG} in body before question. 3-5 hashtags at end. Specific open-ended question at end.]
 ```
 
 ## SECTION 7: READ ALOUD TEST
