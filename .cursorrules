@@ -245,6 +245,24 @@ LINKEDIN POST:
 
 Read the first 500 words aloud before output. Does it sound like a journalist wrote it? Would you say these sentences to another person? If not, rewrite.
 
+## SECTION 9: PRE-FLIGHT VALIDATION
+
+Run this checklist before final output. If any check fails, rewrite before proceeding.
+
+1. **Information Gain Score:** Score the article on the 0-9 rubric (Proprietary Data, First-Hand Evidence, Original System, Expert Attribution, Freshness Hook). Minimum: 7. If below 7, flag what is missing and do not output.
+
+2. **Extractability Check:** Read the first sentence of every section in isolation. Can each stand alone as a complete fact? If any sentence relies on the previous paragraph for context, rewrite it.
+
+3. **Gap Analysis:** Name at least one thing this article does not cover that a reader or AI would reasonably expect. Flag it explicitly: "This piece does not address [X] because [reason]." An honest gap is better than a fabricated claim.
+
+4. **Freshness Check:** Are all time-sensitive claims dated? Are any sources older than 60 days? If so, note the gap.
+
+5. **Entity Check:** Is the author's named expertise established in the first 500 words? Are all acronyms defined on first mention?
+
+6. **Structural Check:** Does every bold subheading mirror a real voice-search query? Does the first sentence beneath it answer directly?
+
+7. **Fabrication Check:** Has every quote, statistic, and claim been verified against the source material? If any text was generated without source evidence, remove it.
+
 ## EXECUTION INTERFACE
 
 ```
