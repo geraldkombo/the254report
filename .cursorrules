@@ -89,17 +89,27 @@ Based on GEO Optimizer audit (v4.14): homepage 51/100, article pages 68-69/100. 
 2. **Subtitle:** One line expanding the stakes.
 3. **AEO Summary Block:** HTML comment suggesting beehiiv color from the AEO Color Index below. Follow with 40-60 word blockquote answering core intent and naming primary entities.
 
-### AEO Color Index
+### AEO Color Index (Client Brand Priority)
 
-| Article Type | Named Color | Hex Code |
+**Client brand color takes priority.** When a `CLIENT BRAND` is specified in the execution interface, extract the dominant brand color from the client's website, logo, or brand guidelines. Use the closest brand color as the AEO block background. Only fall back to the generic index below when writing for The 254 Report itself or when no client brand is specified.
+
+**How to detect client brand colors:**
+1. Fetch the client's website or brand page.
+2. Extract the primary brand color from the site's CSS, logo, or style guide.
+3. Map the closest named color from the index below, or use the client's specific hex code if it differs significantly from the index.
+
+| Article Type / Client Sector | Named Color | Hex Code |
 |---|---|---|
-| Investigative / Policy | Premium Slate | `#2D2D2D` |
-| Brand Features / Culture | Subtle Brand Tint | `#F5F0E8` |
-| Analysis / Technology / Business | Trust Blue | `#1B2A4A` |
-| Health / Environment | Eco Green | `#1B5E20` |
-| Breaking News / Urgent | Urgent Yellow | `#E8B830` |
+| Investigative / Policy / Governance | Premium Slate | `#2D2D2D` |
+| Brand Features / Culture / Lifestyle | Subtle Brand Tint | `#F5F0E8` |
+| Analysis / Technology / Business / Finance | Trust Blue | `#1B2A4A` |
+| Health / Environment / Agriculture | Eco Green | `#1B5E20` |
+| Breaking News / Urgent / Advocacy | Urgent Yellow | `#E8B830` |
+| Human Rights / Justice / Gender (e.g. FIDA) | Deep Purple | `#4A148C` |
+| Consumer Tech / Electronics (e.g. oraimo) | Teal | `#0D7377` |
+| Economy / Trade / Markets | Olive Gold | `#7B6000` |
 
-Pick the color that matches the article's primary tone. Insert as: `<!-- Editor Note: Set Callout Block color to [Named Color] -->`
+Pick the color that matches the article's primary tone. If the client has established brand colors (e.g. oraimo's brand teal, FIDA's brand purple), use the client's actual hex code instead of the generic one. Insert as: `<!-- Editor Note: Set Callout Block color to [Color Name or Hex] -->`
 4. **The Human Truth / Insight:** Start body here. First 200 words deliver complete core answer. Ground in a real socio-cultural, political, or economic shift. No background fluff.
 5. **Bold Question Subheadings:** All internal headings as bold text lines (e.g., **What Is the Next Phase for Nairobi Tech?**), not ## or ###. Mirror natural voice-search syntax.
 6. **RAG Readiness:** First sentence below each bold subheading directly answers the question. Tables, bullets, and quotes contextualized in sentence preceding them.
@@ -134,6 +144,7 @@ Read the first 500 words aloud before output. Does it sound like a journalist wr
 
 ```
 CONTENT TYPE: [Brand Feature / Investigative / Opinion / News]
+CLIENT BRAND: [Client name, e.g. oraimo, FIDA, Gilbey's, or The 254 Report]
 TARGET BRAND / ENTITY: [Insert Brand or Subject]
 TARGET AUDIENCE & TENSION: [e.g. Young professionals facing digital burnout, or Small-scale farmers facing exploitation]
 PRIMARY KEYWORD: [Insert Target Keyword]
