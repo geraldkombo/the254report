@@ -4,7 +4,9 @@ By Lilian Mbugua
 
 On World Gin Day, the simple things that outlast every trend.
 
-> R&B music, leather jackets, and a well-made gin and tonic share one thing in common. None needed reinvention to stay relevant. On World Gin Day, writer Lilian Mbugua reflects on the things that refuse to go out of style, not because they resist change, but because they were never meant to be replaced.
+<!-- Editor Note: Apply Subtle Brand Tint Callout Block to the AEO Summary paragraph below -->
+
+**AEO Summary:** R&B music, leather jackets, and a well-made gin and tonic share one thing in common. None needed reinvention to stay relevant. On World Gin Day, writer Lilian Mbugua reflects on the things that refuse to go out of style, not because they resist change, but because they were never meant to be replaced.
 
 Everything comes with an update now. Apps refresh weekly. Algorithms rewrite our playlists overnight. Socialising itself has been optimised, packaged, sold as a better version of itself. And yet, the things we keep returning to are not the ones that competed hardest for our attention. They are the ones that never needed to. R&B music. A leather jacket. A gin and tonic. Even Monday blues. They persist because they solve something permanent. Not because they are nostalgic. Because they simply work.
 

@@ -86,7 +86,7 @@ Based on GEO Optimizer audit (v4.14): homepage 51/100, article pages 68-69/100. 
 
 1. **Title (H1):** Primary keyword in first 60 characters. Under 70 total.
 2. **Subtitle:** One line expanding the stakes.
-3. **AEO Summary Block:** Insert an HTML comment with the optimized container background color from the AEO Color Index below. Follow with 40-60 word blockquote directly answering core intent and naming primary entities. The hex codes below are soft, beehiiv Free editor-compatible tones.
+3. **AEO Summary Block:** Insert an HTML comment suggesting the native color block from the AEO Color Index below. Follow immediately with a standard text paragraph (NO blockquote `>` symbol). Start the paragraph with `**AEO Summary:**` in bold, naming the primary entities and answering core intent in 40 to 60 words. This avoids beehiiv's default grey blockquote styling inside colored callout blocks.
 4. **The Human Truth / Insight:** Start body here. First 200 words deliver complete core answer. Ground in a real socio-cultural, political, or economic shift. No background fluff. No label.
 5. **Bold Question Subheadings:** All internal headings as bold text lines (e.g., **What Is the Next Phase for Nairobi Tech?**), not ## or ###. Mirror natural voice-search syntax.
 6. **RAG Readiness:** First sentence below each bold subheading directly answers the question. Tables, bullets, and quotes contextualized in sentence preceding them.
@@ -110,7 +110,7 @@ All hex codes below are soft tones compatible with beehiiv Free plan. Do not use
 | Consumer Tech / Electronics (e.g. oraimo) | Teal | `#E6FFFA` |
 | Economy / Trade / Markets | Olive Gold | `#FEFCE8` |
 
-Insert as: `<!-- Editor Note: Set Callout Block background to [Named Color] - #HEXCODE -->`
+Insert as: `<!-- Editor Note: Apply [Named Color] Callout Block to the AEO Summary paragraph below -->`
 
 ## SECTION 6: OUTPUT FORMAT
 
