@@ -4,8 +4,6 @@ By Lilian Mbugua
 
 On World Gin Day, the simple things that outlast every trend.
 
-<!-- Editor Note: Set Callout Block color to Subtle Brand Tint -->
-
 > R&B music, leather jackets, and a well-made gin and tonic share one thing in common. None needed reinvention to stay relevant. On World Gin Day, writer Lilian Mbugua reflects on the things that refuse to go out of style, not because they resist change, but because they were never meant to be replaced.
 
 Everything comes with an update now. Apps refresh weekly. Algorithms rewrite our playlists overnight. Socialising itself has been optimised, packaged, sold as a better version of itself. And yet, the things we keep returning to are not the ones that competed hardest for our attention. They are the ones that never needed to. R&B music. A leather jacket. A gin and tonic. Even Monday blues. They persist because they solve something permanent. Not because they are nostalgic. Because they simply work.
@@ -55,18 +53,24 @@ They can fade from attention but rarely disappear. They return because the human
 
 ---
 
+## Production Notes
+
+**AEO Background:** Subtle Brand Tint `#FEF2F2`
+
 **SEO Title:** Timeless Classics That Never Go Out of Style
 **URL Slug:** timeless-classics-that-never-go-out-of-style
 **Meta Description:** R&B music, leather jackets, and a well-made gin and tonic share one thing. None needed reinvention. Lilian Mbugua on the classics that refuse to go out of style.
-**AEO Background Color:** Subtle Brand Tint `#F5F0E8` (Warm neutral for brand features and culture pieces)
 
-**X MAIN TWEET:**
+**X (Twitter)**
+
+Main tweet:
 R&B. Leather jackets. A well-made gin and tonic. They never needed reinvention. So why do we keep upgrading everything else? Lilian Mbugua on World Gin Day.
 
-**X FIRST REPLY:**
+First reply:
 Full piece by Lilian Mbugua on the classics that outlast every trend, from R&B to a well-made G&T. https://www.the254report.co.ke/p/timeless-classics-that-never-go-out-of-style #WorldGinDay #Timeless
 
-**LINKEDIN POST:**
+**LinkedIn**
+
 Everything comes with an update now. Apps refresh weekly. Algorithms rewrite our playlists overnight. And yet, the things we keep returning to are not the ones that competed hardest for our attention. They are the ones that never needed to.
 
 R&B music. A leather jacket. A gin and tonic. Even Monday blues.
