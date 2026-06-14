@@ -72,7 +72,7 @@ Based on GEO Optimizer audit (v4.14): homepage 51/100, article pages 68-69/100. 
 - Statistics with source attribution (+33% citability)
 - External citations to .go.ke, UN, AU, WB, .ac.ke (+27% citability)
 - Date on every time-sensitive claim (defeats content decay)
-- Author byline + publication context in first 500 words
+- Author byline + publication context in first 500 words. If CLIENT BRAND is a person (writer/journalist), that person is the author — credit them as the byline, use their voice, and reflect their personal brand aesthetic.
 - Bold question subheadings (not ##/###)
 - First sentence under each bold subheading directly answers the question
 - Statistics/quotes contextualized in sentence preceding them
@@ -91,12 +91,14 @@ Based on GEO Optimizer audit (v4.14): homepage 51/100, article pages 68-69/100. 
 
 ### AEO Color Index (Client Brand Priority)
 
-**Client brand color takes priority.** When a `CLIENT BRAND` is specified in the execution interface, extract the dominant brand color from the client's website, logo, or brand guidelines. Use the closest brand color as the AEO block background. Only fall back to the generic index below when writing for The 254 Report itself or when no client brand is specified.
+**Client brand color takes priority.** When a `CLIENT BRAND` is specified in the execution interface, extract the dominant brand color from the client's website, logo, or brand guidelines. If the client is a person (e.g. Lilian Mbugua), check their personal website, portfolio, or social media for brand aesthetic. Use the closest brand color as the AEO block background. Only fall back to the generic index below when writing for The 254 Report itself or when no client brand is specified.
 
 **How to detect client brand colors:**
-1. Fetch the client's website or brand page.
-2. Extract the primary brand color from the site's CSS, logo, or style guide.
-3. Map the closest named color from the index below, or use the client's specific hex code if it differs significantly from the index.
+1. If the client is a company: fetch their website, logo, brand guidelines.
+2. If the client is a person (writer/journalist): check their personal website, portfolio, LinkedIn, Instagram, or YouTube for consistent brand colors and aesthetic.
+3. Extract the primary brand color from the site's CSS, logo, or style guide.
+4. Map the closest named color from the index below, or use the client's specific hex code if it differs significantly from the index.
+5. If no clear brand colors are found for a person client, default to Subtle Brand Tint (#F5F0E8) for writer/culture features or Trust Blue (#1B2A4A) for analysis pieces.
 
 | Article Type / Client Sector | Named Color | Hex Code |
 |---|---|---|
@@ -124,7 +126,7 @@ Provide final article in clean, native Markdown ready for beehiiv Free editor. I
 SEO Title: [under 60 chars]
 URL Slug: [lowercase-kebab-case]
 Meta Description: [150-160 chars]
-AEO Background Color: [Premium Slate / Subtle Brand Tint / Trust Blue / Eco Green / Urgent Yellow]
+AEO Background Color: [Premium Slate / Subtle Brand Tint / Trust Blue / Eco Green / Urgent Yellow / Deep Purple / Teal / Olive Gold]
 
 X MAIN TWEET:
 [280 chars max. No link. No hashtag. Hook in first 80. Ends with open loop.]
@@ -144,7 +146,7 @@ Read the first 500 words aloud before output. Does it sound like a journalist wr
 
 ```
 CONTENT TYPE: [Brand Feature / Investigative / Opinion / News]
-CLIENT BRAND: [Client name, e.g. oraimo, FIDA, Gilbey's, or The 254 Report]
+CLIENT BRAND: [Client name — can be a person (writer/journalist like Lilian Mbugua) or a company (oraimo, FIDA, Gilbey's), or The 254 Report]
 TARGET BRAND / ENTITY: [Insert Brand or Subject]
 TARGET AUDIENCE & TENSION: [e.g. Young professionals facing digital burnout, or Small-scale farmers facing exploitation]
 PRIMARY KEYWORD: [Insert Target Keyword]
