@@ -119,7 +119,24 @@ The reader should never feel they're in a template. These are patterns, not a pa
 
 ### 3. AEO Summary Block
 - Blockquote: 40-60 words. Answers the core question someone would type into a search engine.
-- Plain `> ` blockquote only — no background color styling (Free plan limitation).
+- Apply background color based on article type using the AEO Color Index below. Pick the closest match to article tone and insert as a beehiiv background color comment.
+
+### AEO Color Index (Pick Intelligently by Article Type)
+
+| Category | Hex Code | Color Name | When to Use |
+|---|---|---|---|
+| Investigative / Accountability | `#8B0000` | Deep Crimson | Deaths in custody, corruption, abuse of power, historical injustice |
+| Human Rights / Justice | `#4A148C` | Deep Purple | Femicide, discrimination, civil liberties, constitutional rights |
+| Breaking News | `#C25A00` | Dark Orange | Urgent developments, fast-moving stories, election results |
+| Analysis / Policy | `#1B2A4A` | Navy Blue | Budget analysis, legislation, institutional reform, governance |
+| Technology / Innovation | `#0D7377` | Teal | AI, startups, digital rights, innovation, science |
+| Data / Investigative Deep Dive | `#1A237E` | Midnight Blue | Data-driven exposes, statistical analysis, FOI-based stories |
+| Opinion / Commentary | `#2D2D2D` | Charcoal | Editorials, analysis pieces, columnist perspectives |
+| Culture / Features | `#6B2737` | Burgundy | Arts, sports, profiles, longform narrative features |
+| Health / Environment | `#1B5E20` | Forest Green | Climate, pollution, public health, food systems, conservation |
+| Economy / Business | `#7B6000` | Olive Gold | Markets, trade, SMEs, investment, labour, agriculture |
+
+**Selection logic:** Match the primary tone of the article, not secondary themes. An investigative piece about police accountability uses Deep Crimson even if it also touches on human rights. A policy analysis about AI regulation uses Navy Blue, not Teal. The color signals the dominant reading frame.
 
 ### 4. Opening
 - First 200 words contain the full core answer. That's the AI extraction window.
