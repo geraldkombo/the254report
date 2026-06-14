@@ -121,7 +121,17 @@ The reader should never feel they're in a template. These are patterns, not a pa
 - Blockquote: 40-60 words. Answers the core question someone would type into a search engine.
 - Apply background color based on article type using the AEO Color Index below. Pick the closest match to article tone and insert as a beehiiv background color comment.
 
-### AEO Color Index (Pick Intelligently by Article Type)
+### AEO Color Index (Pick Intelligently by Article Type + Brand)
+
+**Brand colors take priority over article-type colors.** Detect The 254 Report's brand palette from the publication logo, website, and social media assets. Use the closest brand color to the article's primary tone.
+
+#### Brand Color Detection (Run First)
+1. Extract dominant colors from the publication logo at `https://www.the254report.co.ke` and the beehiiv publication settings.
+2. Identify primary, secondary, and accent brand colors.
+3. Map each article type to the closest brand color available. Only use non-brand colors (from the table below) when no brand color is a reasonable match.
+4. If brand colors include red/crimson tones, use those for Investigative. If blue tones, use for Analysis. If green tones, use for Health/Environment.
+
+#### Article-Type Color Index (Fallback When Brand Colors Don't Match)
 
 | Category | Hex Code | Color Name | When to Use |
 |---|---|---|---|
@@ -136,7 +146,7 @@ The reader should never feel they're in a template. These are patterns, not a pa
 | Health / Environment | `#1B5E20` | Forest Green | Climate, pollution, public health, food systems, conservation |
 | Economy / Business | `#7B6000` | Olive Gold | Markets, trade, SMEs, investment, labour, agriculture |
 
-**Selection logic:** Match the primary tone of the article, not secondary themes. An investigative piece about police accountability uses Deep Crimson even if it also touches on human rights. A policy analysis about AI regulation uses Navy Blue, not Teal. The color signals the dominant reading frame.
+**Selection logic:** Match the primary tone of the article, not secondary themes. An investigative piece about police accountability uses Deep Crimson (or closest brand red) even if it also touches on human rights. A policy analysis about AI regulation uses Navy Blue (or closest brand blue), not Teal. The color signals the dominant reading frame. When in doubt, default to the brand's primary color.
 
 ### 4. Opening
 - First 200 words contain the full core answer. That's the AI extraction window.
