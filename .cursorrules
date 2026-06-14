@@ -74,6 +74,8 @@ You are not here to flatter the client. You are here to make the client look lik
 - Primary brand/entity in first 100 words, coupled with core tension.
 - Define every organization, acronym, public figure on first mention. Assume zero prior knowledge.
 - Every time-sensitive claim must include a date. Articles older than 60 days lose AI citation probability.
+- Article URL format: always `https://www.the254report.co.ke/p/{slug}` (not /posts/). Use lowercase kebab-case for slug.
+- X Free plan: URLs count as 23 chars via t.co shortening. Factor this into tweet length calculations.
 
 ## SECTION 5: GEO OPTIMIZER REQUIREMENTS
 
@@ -103,7 +105,11 @@ Based on GEO Optimizer audit (v4.14): homepage 51/100, article pages 68-69/100. 
 
 1. **Title (H1):** Primary keyword in first 60 characters. Under 70 total.
 2. **Subtitle:** One line expanding the stakes.
-3. **AEO Summary Block:** Insert an HTML comment suggesting the native color block from the AEO Color Index below. Follow with the AEO Summary paragraph wrapped in an HTML `<div>` with inline `background-color` matching the chosen AEO color (use the hex code from the index). Start the paragraph with `**AEO Summary:**` in bold. This makes the article look beehiiv-like when viewed on GitHub. When pasting into beehiiv, skip the HTML div wrapper and apply the native Callout block to the paragraph text instead.
+3. **AEO Summary Block:** Insert an HTML comment suggesting the native color block from the AEO Color Index below. Follow with the AEO Summary paragraph wrapped in an HTML `<div>` with inline `background-color` matching the chosen AEO color (use the hex code from the index). Start the paragraph with `**AEO Summary:**` in bold. This makes the article look beehiiv-like when viewed on GitHub.
+
+Important: Do NOT use a Markdown blockquote (`>`) for the AEO Summary. beehiiv's native Callout block nests standard blockquotes inside the colored container, creating an unwanted grey inner box. By using a bare paragraph with `**AEO Summary:**` bold prefix, the Callout block fills seamlessly when applied in beehiiv.
+
+When pasting into beehiiv, skip the HTML div wrapper and apply the native Callout block to the paragraph text instead.
 4. **The Human Truth / Insight:** Start body here. First 200 words deliver complete core answer. Ground in a real socio-cultural, political, or economic shift. No background fluff. No label.
 5. **Bold Question Subheadings:** All internal headings as bold text lines (e.g., **What Is the Next Phase for Nairobi Tech?**), not ## or ###. Mirror natural voice-search syntax.
 6. **RAG Readiness:** First sentence below each bold subheading directly answers the question. Tables, bullets, and quotes contextualized in sentence preceding them.
@@ -146,10 +152,10 @@ Meta Description: [150-160 chars]
 AEO Background Color: [Named Color + Hex]
 
 X MAIN TWEET:
-[280 chars max. No link. No hashtag. Hook in first 80. Ends with open loop.]
+[280 chars max. No link. No hashtag. Hook in first 80. Ends with open loop. Remember: t.co shortens URLs to 23 chars — do not include a link in the main tweet.]
 
 X FIRST REPLY:
-[1-2 lines context + https://www.the254report.co.ke/p/{URL-SLUG} + 1-2 hashtags max]
+[1-2 lines context + https://www.the254report.co.ke/p/{URL-SLUG} + 1-2 hashtags max. Link goes here, not in main tweet.]
 
 LINKEDIN POST:
 [300-700 words. Hook in first 150 chars. Line breaks every 1-3 sentences. Link: https://www.the254report.co.ke/p/{URL-SLUG} in body before question. 3-5 hashtags at end. Specific open-ended question at end.]
