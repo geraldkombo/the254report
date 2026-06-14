@@ -129,12 +129,7 @@ The reader should never feel they're in a template. These are patterns, not a pa
 
 ### 3. AEO Summary Block
 - Blockquote: 40-60 words. Answers the core question someone would type into a search engine.
-- Include a beehiiv background color comment for the publisher:
-  - Premium Slate (investigative/policy)
-  - Subtle Brand Tint (brand features)
-  - Trust Blue (tech/data/governance)
-  - Eco Green (agriculture/environment)
-  - Urgent Yellow (breaking news/crisis)
+- Include a beehiiv background color comment for the publisher when available on the plan.
 
 ### 4. Opening
 - First 200 words contain the full core answer. That's the AI extraction window.

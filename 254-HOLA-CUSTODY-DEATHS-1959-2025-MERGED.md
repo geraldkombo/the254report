@@ -4,8 +4,6 @@
 
 *Gen Z protesters march with the Kenyan flag on Kimathi Street in downtown Nairobi, demanding accountability in custody deaths, June 2025. The street is named after Field Marshal Dedan Kimathi Waciuri, a commander in the freedom movement in Kenya who refused to surrender and was captured, tried and hanged by colonial authorities in 1957. Eliud Mutonyi Wanjie's manuscript records that such military titles were adopted by forest leaders "to enable them to command the respect of their juniors and maintain the discipline which was a cardinal feature in winning the war," embodying the movement's motto: say and act. (Photo by Henry Naminde for The 254 Report)*
 
-<!-- Beehiiv background color: Premium Slate (investigative/policy) -->
-
 > On March 3, 1959, eleven detainees were beaten to death at Hola detention camp. The colonial government blamed poisoned water. A manuscript by Eliud Mutonyi Wanjie, a detainee in the camp dispensary that morning, records what happened. In June 2025, blogger Albert Ojwang died in a Nairobi police cell. Same pattern: an official story that strains credibility, independent evidence that contradicts it, and accountability that stops short of senior ranks.
 
 On March 3, 1959, Eliud Mutonyi Wanjie watched eleven men die under British warders' clubs at Hola detention camp. On June 7, 2025, blogger Albert Omondi Ojwang entered a police cell at Central Police Station alive and left as a corpse. Between these two deaths lies Kenya's independence, a new constitution, and multiple promises of reform. What has not changed is the pattern: someone dies in state custody, the government offers an explanation that does not match the evidence, independent investigators prove it false, and accountability stops at the lowest rank.
@@ -145,85 +143,3 @@ Both cases follow the same pattern: someone dies in state custody, officials off
 **Twitter Description:** Hola 1959: 11 detainees beaten to death, government blamed poisoned water. A manuscript by Eliud Mutonyi Wanjie titled "Maumau: An Account of the Darkest Days of the Emergency" records the truth. 2025: blogger killed in police cell, same pattern.
 
 **Hashtags:** #HolaMassacre #EliudMutonyiWanjie #MauMau #KenyaNationalArchives #CustodyDeaths #AlbertOjwang #PoliceAccountability
-
-## BEEHIIV GEO SETUP (Paste in Custom Code Section)
-
-### Alt Text for Images (Set in Beehiiv Image Upload Dialog)
-
-| Image | Alt Text |
-|---|---|
-| Hero (protesters) | Gen Z protesters march with the Kenyan flag on Kimathi Street in downtown Nairobi, demanding accountability in custody deaths, June 2025. Kimathi Street is named after Field Marshal Dedan Kimathi Waciuri, a commander in the freedom movement in Kenya who was hanged by colonial authorities in 1957. |
-| Manuscript cover | The worn red-bound cover of Eliud Mutonyi Wanjie's unpublished manuscript "Maumau: An Account of the Darkest Days of the Emergency," held at the Kenya National Archives in Nairobi. The typed label on the red binding identifies the handwritten account of a former detainee who witnessed the 1959 Hola detention camp massacre. |
-| Albert Ojwang portrait | Albert Omondi Ojwang, a 31-year-old teacher and blogger from Homa Bay County, Kenya, whose death in a Nairobi police cell in June 2025 sparked nationwide protests against custody deaths and police impunity. |
-
-### JSON-LD Schema (Paste into Beehiiv Custom Code <head>)
-
-```
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "NewsArticle",
-  "headline": "From Hola Detention Camp 1959 to Central Police Station 2025: Kenyans Are Still Fighting for Accountability in Custody Deaths",
-  "datePublished": "2026-06-14T00:00:00+03:00",
-  "dateModified": "2026-06-14T00:00:00+03:00",
-  "author": {
-    "@type": "Person",
-    "name": "Gerald Kombo",
-    "url": "https://www.the254report.co.ke/authors/gerald-kombo"
-  },
-  "publisher": {
-    "@type": "Organization",
-    "name": "The 254 Report",
-    "url": "https://www.the254report.co.ke"
-  },
-  "description": "A manuscript titled 'Maumau: An Account of the Darkest Days of the Emergency' by Eliud Mutonyi Wanjie, a detainee present at Hola on March 3 1959, describes the beatings that killed 11 men, the Red Cross doctor who broke down crying, and the colonial cover-up that blamed poisoned water. The same pattern appears in a 2025 police cell killing.",
-  "mainEntityOfPage": {
-    "@type": "WebPage",
-    "@id": "https://www.the254report.co.ke/p/from-hola-detention-camp-1959-to-central-police-station-2025-kenyans-are-still-fighting-for-accounta"
-  }
-}
-</script>
-```
-
-```
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What was the Hola detention camp massacre?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "On March 3, 1959, British colonial warders beat eleven detainees to death at Hola detention camp in what is now Tana River County, Kenya. The government initially blamed poisoned water. Medical evidence proved the men died from beatings. A manuscript by Eliud Mutonyi Wanjie, a detainee present in the camp dispensary that morning, provides the only known firsthand eyewitness account."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Who was Eliud Mutonyi Wanjie?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Eliud Mutonyi Wanjie was a Kapenguria trial defence coordinator, a Central Committee and War Council member for Murang'a district, and a detainee present at Hola on March 3, 1959. His manuscript, held at the Kenya National Archives, is the only known firsthand account covering the Kapenguria trial logistics, the War Council and Nairobi cell organisation, the oath administration hierarchy, and the Hola massacre eyewitness narrative."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Who was Albert Omondi Ojwang?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Albert Omondi Ojwang was a 31-year-old teacher and blogger from Homa Bay County, Kenya. He was arrested on June 6, 2025, following a complaint filed by a senior police commander and died in a cell at Central Police Station, Nairobi. Government pathologists found injuries consistent with assault, contradicting the initial police claim of suicide."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What links Hola 1959 to Central Police Station 2025?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Both cases follow the same pattern: someone dies in state custody, officials offer an implausible explanation, independent evidence exposes the falsehood, and accountability stops at junior ranks. In Hola, the colonial government blamed poisoned water. In 2025, police blamed suicide. Both explanations collapsed under independent evidence, and no senior official faced consequences."
-      }
-    }
-  ]
-}
-</script>
-```
