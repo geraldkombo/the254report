@@ -24,7 +24,7 @@ A leather jacket carries a quiet confidence that transcends fashion cycles. Fast
 
 **How did the gin and tonic become a classic?**
 
-Trends demand attention. Classics earn loyalty. Clean, balanced, and uncomplicated, the gin and tonic became one of the world's most enduring drinks before cocktail culture made beverages Instagrammable. Long before elaborate menus and smoked garnishes, the G&T was proof that the best combinations are often the simplest. A Gilbey's and tonic remains the perfect addition to any moment of social connection, whether it is a night out or a night in, offering reliability, familiarity, and effortless consistency.
+Trends demand attention. Classics earn loyalty. Clean, balanced, and uncomplicated, the gin and tonic became one of the world's most enduring drinks long before elaborate cocktail menus and social media-worthy drinks. The G&T was proof that the best combinations are often the simplest. A Gilbey's and tonic remains the perfect addition to any moment of social connection, whether it is a night out or a night in, offering reliability, familiarity, and effortless consistency.
 
 **Why do we get the Monday blues?**
 
