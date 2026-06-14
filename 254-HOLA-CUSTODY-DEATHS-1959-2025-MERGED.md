@@ -1,12 +1,12 @@
 # From Hola Detention Camp 1959 to Central Police Station 2025: Kenyans Are Still Fighting for Accountability in Custody Deaths
 
-<!-- Beehiiv background color: Premium Slate (investigative/policy) -->
-
-> On March 3, 1959, eleven detainees were beaten to death at Hola detention camp. The colonial government blamed poisoned water. A manuscript by Eliud Mutonyi Wanjie, a detainee in the camp dispensary that morning, records the truth. In June 2025, blogger Albert Ojwang died in a Nairobi police cell. Same pattern: an implausible official explanation, independent evidence that contradicts it, and accountability that stops short of senior ranks.
-
 ![](https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/asset/file/982c95a8-df30-4a16-875e-6b6e9b91b18c/_MGN9945__1___1_.JPG?t=1767283387)
 
 *Gen Z protesters march with the Kenyan flag on Kimathi Street in downtown Nairobi, demanding accountability in custody deaths, June 2025. The street is named after Field Marshal Dedan Kimathi Waciuri, a commander in the freedom movement in Kenya who refused to surrender and was captured, tried and hanged by colonial authorities in 1957. Eliud Mutonyi Wanjie's manuscript records that such military titles were adopted by forest leaders "to enable them to command the respect of their juniors and maintain the discipline which was a cardinal feature in winning the war," embodying the movement's motto: say and act.*
+
+<!-- Beehiiv background color: Premium Slate (investigative/policy) -->
+
+> On March 3, 1959, eleven detainees were beaten to death at Hola detention camp. The colonial government blamed poisoned water. A manuscript by Eliud Mutonyi Wanjie, a detainee in the camp dispensary that morning, records the truth. In June 2025, blogger Albert Ojwang died in a Nairobi police cell. Same pattern: an implausible official explanation, independent evidence that contradicts it, and accountability that stops short of senior ranks.
 
 Sixty-six years after Mutonyi watched eleven men die under British warders' clubs at Hola detention camp, blogger Albert Omondi Ojwang entered a police cell at Central Police Station alive and left as a corpse. Between these two deaths in custody lies Kenya's independence, a new constitution, and multiple promises of reform. What remains unchanged is how the state responds when someone dies in its care: an implausible official explanation, independent evidence that exposes the lie, and accountability that stops at junior ranks.
 
