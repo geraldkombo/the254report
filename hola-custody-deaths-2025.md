@@ -1,0 +1,1 @@
+An investigation by the Independent Policing Oversight Authority found that cameras monitoring Albert's cell had been switched off or contained unexplained gaps. Prosecutors charged six suspects — three police officers and three civilians — with murder. All pleaded not guilty and were denied bail. The case is still on slow pre-trial.
