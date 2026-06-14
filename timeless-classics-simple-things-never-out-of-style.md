@@ -5,7 +5,7 @@ By Lilian Mbugua
 
 > R&B music, leather jackets, and a well-made gin and tonic share one thing in common. None of them needed reinvention to stay relevant. On World Gin Day, writer Lilian Mbugua reflects on the simple things that refuse to go out of style, not because they resist change, but because they were never meant to be replaced.
 
-**The Human Truth / Insight:** In a world where apps update weekly and algorithms rewrite our playlists overnight, the things we keep returning to are not the ones that competed hardest for our attention. They are the ones that never needed to. R&B music, a leather jacket, a gin and tonic, even Monday blues. They persist because they solve something permanent. Not because they are nostalgic. Because they simply work.
+In a world where apps update weekly and algorithms rewrite our playlists overnight, the things we keep returning to are not the ones that competed hardest for our attention. They are the ones that never needed to. R&B music, a leather jacket, a gin and tonic, even Monday blues. They persist because they solve something permanent. Not because they are nostalgic. Because they simply work.
 
 **Why does R&B music never get old?**
 
@@ -55,7 +55,7 @@ They can fade from attention but rarely disappear. They return because the human
 **SEO Title:** Timeless Classics That Never Go Out of Style
 **URL Slug:** timeless-classics-simple-things-never-out-of-style
 **Meta Description:** R&B music, leather jackets, and a well-made gin and tonic share one thing in common. None of them needed reinvention to remain relevant. On World Gin Day, Lilian Mbugua on what stays.
-**AEO Background Color:** Subtle Brand Tint
+**AEO Background Color:** Subtle Brand Tint `#F5F0E8` (Warm neutral for brand features/culture)
 
 **X MAIN TWEET:**
 Four things that never needed reinvention to stay relevant. R&B. Leather jackets. A well-made gin and tonic. Even Monday blues. Lilian Mbugua on the classics that refuse to go out of style.

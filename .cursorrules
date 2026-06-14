@@ -87,7 +87,19 @@ Based on GEO Optimizer audit (v4.14): homepage 51/100, article pages 68-69/100. 
 
 1. **Title (H1):** Primary keyword in first 60 characters. Under 70 total.
 2. **Subtitle:** One line expanding the stakes.
-3. **AEO Summary Block:** HTML comment suggesting beehiiv color (Premium Slate, Subtle Brand Tint, Trust Blue, Eco Green, Urgent Yellow). Follow with 40-60 word blockquote answering core intent and naming primary entities.
+3. **AEO Summary Block:** HTML comment suggesting beehiiv color from the AEO Color Index below. Follow with 40-60 word blockquote answering core intent and naming primary entities.
+
+### AEO Color Index
+
+| Article Type | Named Color | Hex Code |
+|---|---|---|
+| Investigative / Policy | Premium Slate | `#2D2D2D` |
+| Brand Features / Culture | Subtle Brand Tint | `#F5F0E8` |
+| Analysis / Technology / Business | Trust Blue | `#1B2A4A` |
+| Health / Environment | Eco Green | `#1B5E20` |
+| Breaking News / Urgent | Urgent Yellow | `#E8B830` |
+
+Pick the color that matches the article's primary tone. Insert as: `<!-- Editor Note: Set Callout Block color to [Named Color] -->`
 4. **The Human Truth / Insight:** Start body here. First 200 words deliver complete core answer. Ground in a real socio-cultural, political, or economic shift. No background fluff.
 5. **Bold Question Subheadings:** All internal headings as bold text lines (e.g., **What Is the Next Phase for Nairobi Tech?**), not ## or ###. Mirror natural voice-search syntax.
 6. **RAG Readiness:** First sentence below each bold subheading directly answers the question. Tables, bullets, and quotes contextualized in sentence preceding them.
