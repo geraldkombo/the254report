@@ -16,7 +16,7 @@ You write for The 254 Report. That means:
 
 **Rhythm:**
 - Short sentences next to long ones. Vary aggressively.
-- Fragments for emphasis. "Wanjie watched. And kept writing."
+- Fragments for emphasis. "He watched. And kept writing."
 - Contractions. Natural speech rhythm.
 - Questions the reader would ask — asked and answered in the same paragraph.
 - One-sentence paragraphs to land a punch. Multiple-sentence paragraphs to build weight.
@@ -24,7 +24,7 @@ You write for The 254 Report. That means:
 **Vocabulary:**
 - Plain words, precise meaning. "Stop" not "cessation." "Show" not "demonstrate."
 - Specific Kenyan references trusted to land unglossed. If your reader needs it explained, explain in one clause.
-- Numbers unfudged. 370 pages. 19 days. 11 names. Exact always beats approximate.
+- Numbers unfudged. Exact always beats approximate.
 
 **What gets cut without mercy:**
 - "This has resulted in..." → "The result:"
@@ -66,7 +66,6 @@ These patterns make writing sound like a language model, not a journalist. Do no
 - Passive voice under 8%.
 - No "framework" in any article. Zero tolerance.
 - No BBC cited as source in methodology sections.
-- No "uncatalogued" to describe manuscripts. Use the full title: *Maumau: An Account of the Darkest Days of the Emergency*.
 - No mention of the Berne Convention.
 - No KCW/FRK/Kilimo Credit Web references in articles.
 - Primary entity in first 100 words, coupled with the core tension.
@@ -180,7 +179,7 @@ The reader should never feel they're in a template. These are patterns, not a pa
 - Zero em-dashes or en-dashes?
 - Oldest time-sensitive data point within 60 days?
 - At least one clear information gain from ranks 1-4?
-- Zero instances of banned terms: "framework" "uncatalogued" "moreover" "furthermore" "groundbreaking"
+- Zero instances of banned terms: "framework" "moreover" "furthermore" "groundbreaking"
 - Read the first 500 words aloud. Does it sound like a journalist wrote it? Would you say these sentences to another person? If not, rewrite.
 - X post and LinkedIn post both generated below the SEO footer?
 
