@@ -88,7 +88,7 @@ Mutonyi's manuscript preserves what the colonial state tried to erase: a story a
 
 In Hola in 1959 and Central Police Station in 2025, the sequence is identical. Someone dies in state custody. Officials produce an explanation that contradicts the physical evidence. Independent investigators expose the falsehood. Accountability is directed downward, never upward.
 
-The Gen Z protesters who filled Nairobi's streets in 2025 may never have read Mutonyi's manuscript. But their central demand, that words without action are worthless, echoes its motto. And the question his manuscript raises, about what happens when detention sites are hidden from scrutiny, applies as urgently to a colonial camp on the Tana River as it does to a police cell on Harry Thuku Road.
+The protesters who filled Nairobi's streets in 2025 carried banners demanding the end of deaths in custody. Their central demand, that words without action are worthless, echoes Mutonyi's motto. And the question his manuscript raises, about what happens when state detention sites are hidden from scrutiny, applies as urgently to a colonial camp on the Tana River as it does to a police cell on Harry Thuku Road.
 
 The struggle over truth and accountability in Kenya did not end with independence. It entered a new phase. The question that remains, for both the colonial past and the democratic present, is whether Kenya's institutions will ever hold senior officials accountable for what happens to people who die in their care.
 
